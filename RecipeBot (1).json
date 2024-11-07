@@ -1,0 +1,1627 @@
+{
+  "intents": [
+    {
+      "intent": "another_idea",
+      "examples": [
+        {
+          "text": "I need another idea"
+        },
+        {
+          "text": "I want a different recipe"
+        },
+        {
+          "text": "I want another idea"
+        },
+        {
+          "text": "That doesn't sound good"
+        },
+        {
+          "text": "What else do you have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fetch_recipe",
+      "examples": [
+        {
+          "text": "i need a recipe"
+        },
+        {
+          "text": "I want a quick snack"
+        },
+        {
+          "text": "I want Breakfast recipes"
+        },
+        {
+          "text": "I want desert recipes"
+        },
+        {
+          "text": "I want dinner recipes"
+        },
+        {
+          "text": "I want lunch recipes"
+        },
+        {
+          "text": "I want recipe"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "hello"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "hola"
+        },
+        {
+          "text": "How can you help me ?"
+        },
+        {
+          "text": "who are you?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "help",
+      "examples": [
+        {
+          "text": "help please"
+        },
+        {
+          "text": "I don't know how this works"
+        },
+        {
+          "text": "I need help"
+        },
+        {
+          "text": "what can I do"
+        },
+        {
+          "text": "what do you do"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no",
+      "examples": [
+        {
+          "text": "nah"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "nope"
+        },
+        {
+          "text": "no thanks"
+        },
+        {
+          "text": "no way"
+        }
+      ]
+    },
+    {
+      "intent": "restrictions",
+      "examples": [
+        {
+          "text": "I am dairy free"
+        },
+        {
+          "text": "I am gluten free"
+        },
+        {
+          "text": "I am vegan"
+        },
+        {
+          "text": "I am vegetarian"
+        },
+        {
+          "text": "I have no restrictions"
+        },
+        {
+          "text": "none"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "specific_ingredients",
+      "examples": [
+        {
+          "text": "ingredients"
+        },
+        {
+          "text": "I want pizza"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "start_cooking",
+      "examples": [
+        {
+          "text": "I don't know what to cook"
+        },
+        {
+          "text": "i want to cook"
+        },
+        {
+          "text": "i want to cook something"
+        },
+        {
+          "text": "let's cook"
+        },
+        {
+          "text": "lets cook something"
+        },
+        {
+          "text": "what should I cook?"
+        },
+        {
+          "text": "what should I eat?"
+        }
+      ]
+    },
+    {
+      "intent": "thanks",
+      "examples": [
+        {
+          "text": "gracias"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thanks a lot"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "wow"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yes",
+      "examples": [
+        {
+          "text": "ok"
+        },
+        {
+          "text": "yas"
+        },
+        {
+          "text": "yeah"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "yup"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "cuisine",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "african",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "american",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "british",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cajun",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "caribbean",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "chinese",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "eastern european",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "french",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "german",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "greek",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "indian",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "irish",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "italian",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "japanese",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "jewish",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "korean",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "latin american",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mexican",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "middle eastern",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "nordic",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "southern",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "spanish",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "thai",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "vietnamese",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "ingredients",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "avocados",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "beans",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bread",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "breakfast",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "butter",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "carrots",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cheese",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "chicken",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "chilli",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "corn",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "dessert",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "eggs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "garlic",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lime",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "milk",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "oil",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "onion",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pasta",
+          "synonyms": [
+            "Farfalle",
+            "Fettuccine",
+            "Fusilli",
+            "Lasagna",
+            "Linguine",
+            "Penne",
+            "Rigatoni",
+            "Spaghetti"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pepper",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pizza",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rice",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "soup",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tomato",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "restrictions",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "dairy-free",
+          "synonyms": [
+            "dairy free",
+            "no dairy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "gluten-free",
+          "synonyms": [
+            "gluten free",
+            "no gluten"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "none",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no restrictions",
+          "synonyms": [
+            "I eat everything"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vegan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "vegetarian",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Can you tell me what dietary restrictions you have?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_4_1730389195466",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1730389195468",
+      "previous_sibling": "handler_8_1730389195468"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Which ingredients or food type would you like to use / make?  You can say things like \"pizza\" or \"tomatoes and onions\""
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1730389193051",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1730389193053",
+      "previous_sibling": "handler_9_1730389193053"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1730389195466",
+      "context": {
+        "restrictions": "@restrictions"
+      },
+      "conditions": "@restrictions",
+      "event_name": "input",
+      "dialog_node": "handler_8_1730389195468"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1730389193051",
+      "context": {
+        "ingredients": "@ingredients"
+      },
+      "conditions": "@ingredients",
+      "event_name": "input",
+      "dialog_node": "handler_9_1730389193053"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a recipe for Lasagna:\nIngredients\nYield:\n8 to 10 servings\nFor the Sauce\n1cup extra virgin olive oil\n2medium red onions, finely diced\n2large cloves minced garlic\n8ounces pancetta, diced\nSalt and freshly ground black pepper\n1½cups good red wine, preferably Italian\n228-ounce cans Italian plum tomatoes\n3tablespoons tomato paste\n¾pound ground sirloin\n¼cup freshly grated Pecorino Romano\n2eggs\n10sprigs fresh parsley, leaves only, washed and dried\n2large whole cloves garlic\n½cup flour\n1pound Italian sausage, a mix of hot and sweet\nFor the Lasagna\n115-ounce container ricotta cheese\n2eggs\n2cups freshly grated Pecorino Romano\n½cup chopped parsley\n1pound mozzarella, grated\n16sheets fresh lasagna noodles, preferably Antica Pasteria\n\nStep 1\nFor the sauce, heat ½ cup oil in a large heavy Dutch oven or kettle over low heat. Add the onions, minced garlic and pancetta, and cook, stirring, for 10 minutes, until the onions are wilted. Season liberally with salt and pepper. Raise heat slightly, add the wine and cook until it is mostly reduced, about 20 minutes. Crush the tomatoes into the pan, and add their juice. Add the tomato paste and 2 cups lukewarm water. Simmer for 1 hour.\n\nStep 2\nCombine the sirloin, cheese and eggs in a large bowl. Chop the parsley with the whole garlic until fine, then stir into the beef mixture. Season lavishly with salt and pepper. Using your hands, mix until all the ingredients are well blended. Shape into meatballs and set aside.\n\nStep 3\nHeat the remaining oil in a large skillet over medium-high heat. Dust the meatballs lightly with flour, shaking off excess, and lay into the hot oil. Brown the meatballs on all sides (do not cook through) and transfer to the sauce.\n\nStep 4\nIn a clean skillet, brown the sausages over medium-high heat. Transfer to the sauce. Simmer 1½ hours.\n\nStep 5\nHeat the oven to 350 degrees. In a large bowl, combine the ricotta, eggs, Pecorino Romano, parsley and all but 1 cup of the mozzarella. Season well with salt and pepper. Mix thoroughly.\n\nStep 6\nRemove the meatballs and sausage from the sauce, and set aside to cool slightly, then chop coarsely. Spoon a thick layer of sauce into the bottom of a 9-by-12-inch lasagna pan. Cover with a layer of noodles. Spoon more sauce on top, then add a third of the meat and a third of the cheese mixture. Repeat for 2 more layers, using all the meat and cheese. Top with a layer of noodles, and cover with the remaining sauce. Sprinkle reserved mozzarella evenly over the top. Bake 30 minutes. Let stand 10 minutes before serving."
+              },
+              {
+                "text": "Here is a recipe for Angel Hair Pasta\nTotal Time\n30 minutes\n\nIngredients\nYield:\n4 servings\nSalt\n¼cup extra-virgin olive oil\n3tablespoons butter\n1pound cherry tomatoes, halved\n3garlic cloves, minced\n1shallot, minced\nFreshly ground black pepper\nCrushed red pepper (optional)\n1pound angel hair pasta\n2tablespoons minced fresh parsley or 2 teaspoons dried parsley\n2tablespoons minced fresh basil or 2 teaspoons dried basil\nFreshly grated Parmesan, for serving\n\nStep 1\nHeat a large pasta pot of salted water to a boil.\n\nStep 2\nTo a large pan over medium heat, add olive oil and butter. Allow the butter to melt, then add cherry tomatoes. Cook until tomatoes are beginning to soften and the skins are a little blistered, 4 to 6 minutes.\n\nStep 3\nAdd garlic, shallot, 1 teaspoon each of kosher salt and black pepper, and a pinch of red pepper, if using, and toss to combine with the tomatoes. Cook for about 6 minutes, until the shallots are translucent and the tomatoes are fully softened yet still intact. Meanwhile, add pasta to the boiling salted water and cook until al dente according to the packaging directions, about 2 minutes. Reserve 1 cup of pasta water, then strain the pasta.\n\nStep 4\nAdd the cooked pasta, herbs and a bit of the reserved pasta water to the pan and cook for 2 minutes, stirring to combine, until you have a glossy pasta sauce; add more pasta water slowly, if needed. Serve topped with plenty of Parmesan."
+              },
+              {
+                "text": "Here is a recipe for Classic Spaghetti Aglio e Olio\nTotal Time:\n20 minutes\n\nYield:\nServes 4\n\nIngredients\n\n1 lb (450 grams) spaghetti\n1/4 cup extra virgin olive oil\n6 garlic cloves, thinly sliced\n1/2 teaspoon red pepper flakes (adjust to taste)\nSalt, to taste\nFresh parsley, chopped, for garnish\nGrated Parmesan, for serving (optional)\nPreparation\n\nStep 1\nCook spaghetti according to package instructions in salted water. Reserve 1/2 cup of the pasta water before draining.\n\nStep 2\nIn a large skillet, heat olive oil over medium heat. Add garlic slices and red pepper flakes. Sauté for 1-2 minutes until garlic is golden but not burnt.\n\nStep 3\nAdd the cooked spaghetti to the skillet along with a splash of reserved pasta water. Toss to coat the spaghetti in the garlic oil.\n\nStep 4\nSeason with salt, garnish with fresh parsley, and sprinkle with Parmesan if desired.\n\nEnjoy your simple Spaghetti Aglio e Olio!"
+              },
+              {
+                "text": "Here is a recipe for Creamy Pesto Pasta\nTotal Time:\n25 minutes\n\nYield:\nServes 4\n\nIngredients\n\n1 lb (450 grams) pasta of your choice (penne, fusilli, etc.)\n1/2 cup pesto sauce (store-bought or homemade)\n1/2 cup heavy cream or half-and-half\nSalt and pepper, to taste\n1/4 cup grated Parmesan\nFresh basil leaves, for garnish\nPreparation\n\nStep 1\nCook the pasta according to package instructions in salted water. Reserve 1/4 cup of the pasta water before draining.\n\nStep 2\nIn a skillet, warm pesto and heavy cream over medium heat, stirring until smooth.\n\nStep 3\nAdd the cooked pasta and reserved pasta water to the skillet. Stir to coat the pasta evenly with the sauce. Season with salt and pepper.\n\nStep 4\nSprinkle with Parmesan and garnish with fresh basil leaves before serving.\n\nEnjoy your Creamy Pesto Pasta!"
+              },
+              {
+                "text": "Here is a recipe for Garlic Parmesan Pasta\n\nTotal Time:\n15 minutes\n\nYield:\nServes 4\n\nIngredients\n\n8 ounces spaghetti or any pasta of choice\n3 tablespoons butter\n3 garlic cloves, minced\n1/4 teaspoon red pepper flakes (optional)\nSalt and pepper, to taste\n1/2 cup grated Parmesan cheese\nFresh parsley, chopped, for garnish\nPreparation\n\nStep 1\nCook pasta according to package instructions. Drain and set aside.\n\nStep 2\nIn a large skillet, melt butter over medium heat. Add minced garlic and red pepper flakes, sautéing until fragrant (about 1 minute).\n\nStep 3\nAdd the cooked pasta to the skillet. Toss with salt, pepper, and Parmesan cheese until well combined.\n\nStep 4\nGarnish with fresh parsley and serve immediately.\n\nEnjoy your quick and easy Garlic Parmesan Pasta!\n\n2. Creamy Tomato Pasta\n\nTotal Time:\n20 minutes\n\nYield:\nServes 4\n\nIngredients\n\n8 ounces penne or pasta of choice\n1 tablespoon olive oil\n1 small onion, diced\n2 garlic cloves, minced\n1 cup tomato sauce\n1/2 cup heavy cream\nSalt and pepper, to taste\n1/4 cup grated Parmesan cheese\nFresh basil, chopped, for garnish\nPreparation\n\nStep 1\nCook pasta according to package instructions. Drain and set aside.\n\nStep 2\nIn a large skillet, heat olive oil over medium heat. Add onion and garlic, sautéing until soft (about 3 minutes).\n\nStep 3\nAdd tomato sauce and simmer for 5 minutes. Stir in heavy cream, salt, and pepper. Let it simmer until it slightly thickens.\n\nStep 4\nAdd the cooked pasta and Parmesan cheese, tossing to combine. Garnish with fresh basil.\n\nEnjoy your Creamy Tomato Pasta!"
+              },
+              {
+                "text": "Here is a recipe for Pesto Pasta with Sun-Dried Tomatoes and Chicken\n\nTotal Time:\n30 minutes\n\nYield:\nServes 4\n\nIngredients\n\n8 ounces pasta of choice (like fusilli or penne)\n1 tablespoon olive oil\n1 lb chicken breast, diced\nSalt and pepper, to taste\n1/2 cup sun-dried tomatoes, chopped\n1/2 cup pesto sauce (store-bought or homemade)\n1/4 cup grated Parmesan cheese\nFresh basil, for garnish\nPreparation\n\nStep 1\nCook pasta according to package instructions. Drain and set aside.\n\nStep 2\nIn a large skillet, heat olive oil over medium heat. Season chicken with salt and pepper, then cook until golden and cooked through (about 5-7 minutes). Set chicken aside.\n\nStep 3\nIn the same skillet, add sun-dried tomatoes and sauté for 1-2 minutes. Return chicken to the skillet, and add pesto sauce, stirring to combine.\n\nStep 4\nAdd the cooked pasta and Parmesan cheese, tossing to coat. Adjust seasoning if necessary.\n\nStep 5\nGarnish with fresh basil and serve immediately.\n\nEnjoy your Pesto Pasta with Sun-Dried Tomatoes and Chicken!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type \"another idea\" if you'd like to see other recipes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1730223677001",
+      "context": {},
+      "conditions": "$ingredients:pasta && $restrictions:none",
+      "dialog_node": "node_10_1730389325281",
+      "previous_sibling": "node_1_1730858883229"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a recipe for Pizza Margherita\n\nTotal Time\n15 minutes, plus 1 hour to heat oven\nIngredients\nYield:2 servings\n•\t12-inch round of pizza dough, stretched (see recipe)\n•\t3tablespoons tomato sauce (see note)\n•\tExtra-virgin olive oil\n•\t2¾ounces fresh mozzarella\n•\t4 to 5basil leaves, roughly torn\nPreparation\n1.\tStep 1\nPlace a pizza stone or tiles on the middle rack of your oven and turn heat to its highest setting. Let it heat for at least an hour.\n2.\tStep 2\nPut the sauce in the center of the stretched dough and use the back of a spoon to spread it evenly across the surface, stopping approximately ½ inch from the edges.\n3.\tStep 3\nDrizzle a little olive oil over the pie. Break the cheese into large pieces and place these gently on the sauce. Scatter basil leaves over the top.\n4.\tStep 4\nUsing a pizza peel, pick up the pie and slide it onto the heated stone or tiles in the oven. Bake until the crust is golden brown and the cheese is bubbling, approximately 4 to 8 minutes."
+              },
+              {
+                "text": "Here is a recipe for Pizza With Sweet and Hot Peppers\n\nTotal Time\n1 hour, using prepared dough\nIngredients\nYield:\n4 10-inch pies\n6cups thinly sliced bell pepper or other sweet pepper\n2cups thinly sliced red onion\n1jalapeño pepper, thinly sliced\n2garlic cloves, minced\n3tablespoons olive oil\nSalt\n4balls of pizza dough, ready to stretch and bake (see recipe)\nAll-purpose flour, for dusting\n8ounces/225 grams low-moisture mozzarella or Fontina, grated\n1pound/450 grams fresh mozzarella\n8ounces/225 grams Italian fennel sausage (2 sausages in casings), cut into ½-inch pieces (optional)\n1tablespoon chopped fresh marjoram\nBasil leaves, for garnish\n\nPreparation\nStep 1\nPrepare the pepper mixture: Place peppers, onion, jalapeño, garlic and oil in a mixing bowl. Season well with salt and toss to distribute seasoning, then set aside.\n\nStep 2\nHeat oven to 500 degrees and place a baking stone or heavy baking sheet on middle rack.\n\nStep 3\nShape the dough: Pat 1 dough ball to a flat disc, lightly dust both sides with flour and stretch by hand to a 10-inch diameter. Alternatively, lightly dust dough with flour and roll out with a pin. Place dough circle on a parchment-lined rimless baking sheet (or use a rimmed baking sheet turned upside down, or a pizza peel).\n\nStep 4\nSprinkle each pizza evenly with 2 ounces of grated cheese, leaving a ½-inch border. Top each with 4 ounces sliced fresh mozzarella. Arrange the pepper mixture over the cheeses and dot each pizza with 2 ounces of sausage meat in very small pieces. Sprinkle with a pinch of marjoram.\n\nStep 5\nTo bake, quickly slip the pizza, still on the parchment, onto the baking stone. Bake for 5 to 7 minutes, until dough is well browned and pepper mixture is slightly charred in spots. Use a large spatula to remove pizza from oven, discard parchment and place on a large cutting board. Garnish with basil leaves and cut into slices."
+              },
+              {
+                "text": "Here is a recipe for Veggie Supreme Pizza\nTotal Time:\n1 hour, using prepared dough\n\nYield:\n4 10-inch pies\n\nIngredients\n\n1 cup marinara or pizza sauce\n8 ounces/225 grams low-moisture mozzarella, grated\n1 pound/450 grams fresh mozzarella, sliced\n1/2 cup sliced bell peppers (red, yellow, or green)\n1/2 cup sliced black olives\n1/2 cup sliced mushrooms\n1/4 cup sliced red onion\n1/4 cup sliced cherry tomatoes\n4 balls of pizza dough, ready to stretch and bake\nAll-purpose flour, for dusting\n2 tablespoons olive oil\nSalt and pepper, to taste\nFresh basil leaves, for garnish\nPreparation\n\nStep 1\nPreheat the oven to 500°F (260°C) and place a baking stone or a heavy baking sheet on the middle rack.\n\nStep 2\nPrepare the dough: Pat each dough ball into a flat disc, lightly dust both sides with flour, and stretch or roll out to a 10-inch diameter. Place each dough circle on a parchment-lined rimless baking sheet or a pizza peel.\n\nStep 3\nAssemble the pizzas: Spread 1/4 cup of marinara sauce on each pizza dough, leaving a 1/2-inch border. Sprinkle each with 2 ounces of grated mozzarella and layer with fresh mozzarella slices.\n\nStep 4\nAdd the toppings: Evenly distribute the bell peppers, olives, mushrooms, red onion, and cherry tomatoes on each pizza. Drizzle lightly with olive oil and season with salt and pepper.\n\nStep 5\nBake the pizzas: Slide each pizza, still on the parchment paper, onto the baking stone or preheated baking sheet. Bake for 7–9 minutes, or until the crust is golden and the cheese is melted and bubbly.\n\nStep 6\nRemove from the oven, discard parchment paper, and garnish each pizza with fresh basil. Slice and serve.\n\nEnjoy your Veggie Supreme Pizza!"
+              },
+              {
+                "text": "Here is a recipe for White Pizza with Spinach and Ricotta\nTotal Time:\n1 hour, using prepared dough\n\nYield:\n4 10-inch pies\n\nIngredients\n\n1 cup ricotta cheese\n8 ounces/225 grams low-moisture mozzarella, grated\n1 pound/450 grams fresh mozzarella, sliced\n1/2 cup fresh spinach, chopped\n2 garlic cloves, minced\n4 balls of pizza dough, ready to stretch and bake\nAll-purpose flour, for dusting\n2 tablespoons olive oil\nSalt and pepper, to taste\nRed pepper flakes (optional)\nFresh basil leaves, for garnish\nPreparation\n\nStep 1\nPreheat the oven to 500°F (260°C) and place a baking stone or a heavy baking sheet on the middle rack.\n\nStep 2\nPrepare the dough: Pat each dough ball into a flat disc, lightly dust both sides with flour, and stretch or roll out to a 10-inch diameter. Place each dough circle on a parchment-lined rimless baking sheet or a pizza peel.\n\nStep 3\nAssemble the pizzas: Spread 1/4 cup of ricotta cheese on each pizza dough, leaving a 1/2-inch border. Sprinkle with 2 ounces of grated mozzarella and layer with fresh mozzarella slices.\n\nStep 4\nAdd the toppings: Evenly distribute the spinach and garlic on each pizza. Drizzle lightly with olive oil, and season with salt, pepper, and red pepper flakes if desired.\n\nStep 5\nBake the pizzas: Slide each pizza, still on the parchment paper, onto the baking stone or preheated baking sheet. Bake for 7–9 minutes, or until the crust is golden and the cheese is melted and bubbly.\n\nStep 6\nRemove from the oven, discard parchment paper, and garnish with fresh basil leaves. Slice and serve.\n\nEnjoy your White Pizza with Spinach and Ricotta!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type \"another idea\" if you'd like to see other recipes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1730223677001",
+      "conditions": "$ingredients:pizza && $restrictions:vegetarian",
+      "dialog_node": "node_10_1730392825947",
+      "previous_sibling": "response_1_1730388182928"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great!  Would you like to use specific ingredients or have an idea for a meal (Yes/No)?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#fetch_recipe",
+      "dialog_node": "node_1_1470199483860",
+      "previous_sibling": "node_7_1730647264212"
+    },
+    {
+      "type": "standard",
+      "title": "pizza",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pizza Margherita\n\nTotal Time\n15 minutes, plus 1 hour to heat oven\nIngredients\nYield:2 servings\n•\t12-inch round of pizza dough, stretched (see recipe)\n•\t3tablespoons tomato sauce (see note)\n•\tExtra-virgin olive oil\n•\t2¾ounces fresh mozzarella\n•\t4 to 5basil leaves, roughly torn\nPreparation\n1.\tStep 1\nPlace a pizza stone or tiles on the middle rack of your oven and turn heat to its highest setting. Let it heat for at least an hour.\n2.\tStep 2\nPut the sauce in the center of the stretched dough and use the back of a spoon to spread it evenly across the surface, stopping approximately ½ inch from the edges.\n3.\tStep 3\nDrizzle a little olive oil over the pie. Break the cheese into large pieces and place these gently on the sauce. Scatter basil leaves over the top.\n4.\tStep 4\nUsing a pizza peel, pick up the pie and slide it onto the heated stone or tiles in the oven. Bake until the crust is golden brown and the cheese is bubbling, approximately 4 to 8 minutes.\n"
+              },
+              {
+                "text": "Here is a recipe for Pizza With Sweet and Hot Peppers\n\nTotal Time\n1 hour, using prepared dough\nIngredients\nYield:\n4 10-inch pies\n6cups thinly sliced bell pepper or other sweet pepper\n2cups thinly sliced red onion\n1jalapeño pepper, thinly sliced\n2garlic cloves, minced\n3tablespoons olive oil\nSalt\n4balls of pizza dough, ready to stretch and bake (see recipe)\nAll-purpose flour, for dusting\n8ounces/225 grams low-moisture mozzarella or Fontina, grated\n1pound/450 grams fresh mozzarella\n8ounces/225 grams Italian fennel sausage (2 sausages in casings), cut into ½-inch pieces (optional)\n1tablespoon chopped fresh marjoram\nBasil leaves, for garnish\n\nPreparation\nStep 1\nPrepare the pepper mixture: Place peppers, onion, jalapeño, garlic and oil in a mixing bowl. Season well with salt and toss to distribute seasoning, then set aside.\n\nStep 2\nHeat oven to 500 degrees and place a baking stone or heavy baking sheet on middle rack.\n\nStep 3\nShape the dough: Pat 1 dough ball to a flat disc, lightly dust both sides with flour and stretch by hand to a 10-inch diameter. Alternatively, lightly dust dough with flour and roll out with a pin. Place dough circle on a parchment-lined rimless baking sheet (or use a rimmed baking sheet turned upside down, or a pizza peel).\n\nStep 4\nSprinkle each pizza evenly with 2 ounces of grated cheese, leaving a ½-inch border. Top each with 4 ounces sliced fresh mozzarella. Arrange the pepper mixture over the cheeses and dot each pizza with 2 ounces of sausage meat in very small pieces. Sprinkle with a pinch of marjoram.\n\nStep 5\nTo bake, quickly slip the pizza, still on the parchment, onto the baking stone. Bake for 5 to 7 minutes, until dough is well browned and pepper mixture is slightly charred in spots. Use a large spatula to remove pizza from oven, discard parchment and place on a large cutting board. Garnish with basil leaves and cut into slices."
+              },
+              {
+                "text": "Pepperoni and Mushroom Pizza\nTotal Time:\n1 hour, using prepared dough\n\nYield:\n4 10-inch pies\n\nIngredients\n\n1 cup marinara or pizza sauce\n8 ounces/225 grams low-moisture mozzarella, grated\n1 pound/450 grams fresh mozzarella, sliced\n1 cup sliced mushrooms (such as cremini or button mushrooms)\n1 cup thinly sliced pepperoni\n4 balls of pizza dough, ready to stretch and bake (see recipe)\nAll-purpose flour, for dusting\n2 tablespoons olive oil\nSalt and pepper, to taste\nFresh basil leaves, for garnish\nOptional: 1 teaspoon dried oregano or Italian seasoning\nPreparation\n\nStep 1\nPreheat the oven to 500°F (260°C) and place a baking stone or a heavy baking sheet on the middle rack.\n\nStep 2\nPrepare the dough: Pat each dough ball into a flat disc, lightly dust both sides with flour, and stretch or roll out to a 10-inch diameter. Place each dough circle on a parchment-lined rimless baking sheet, or use a rimmed baking sheet turned upside down, or a pizza peel.\n\nStep 3\nAssemble the pizzas: Spread 1/4 cup of marinara sauce evenly on each pizza dough, leaving a 1/2-inch border around the edges. Sprinkle each with 2 ounces of grated mozzarella and layer with fresh mozzarella slices.\n\nStep 4\nTop with an even layer of sliced mushrooms and pepperoni slices. Drizzle with olive oil and season with a little salt, pepper, and optional oregano or Italian seasoning.\n\nStep 5\nBake the pizzas: Quickly slide each pizza, still on the parchment paper, onto the baking stone or preheated baking sheet. Bake for 7–9 minutes, or until the crust is golden and the cheese is melted and bubbly.\n\nStep 6\nRemove from the oven, discard parchment paper, and garnish each pizza with fresh basil leaves. Slice and serve hot.\n\nEnjoy your homemade Pepperoni and Mushroom Pizza!"
+              },
+              {
+                "text": "BBQ Chicken Pizza\nTotal Time:\n1 hour, using prepared dough\n\nYield:\n4 10-inch pies\n\nIngredients\n\n1 cup BBQ sauce, plus more for drizzling\n8 ounces/225 grams low-moisture mozzarella, grated\n1 pound/450 grams fresh mozzarella, sliced\n2 cups cooked chicken breast, shredded or diced\n1/2 red onion, thinly sliced\n4 balls of pizza dough, ready to stretch and bake\nAll-purpose flour, for dusting\n2 tablespoons olive oil\nSalt and pepper, to taste\nFresh cilantro, chopped, for garnish\nPreparation\n\nStep 1\nPreheat the oven to 500°F (260°C) and place a baking stone or a heavy baking sheet on the middle rack.\n\nStep 2\nPrepare the dough: Pat each dough ball into a flat disc, lightly dust both sides with flour, and stretch or roll out to a 10-inch diameter. Place each dough circle on a parchment-lined rimless baking sheet or a pizza peel.\n\nStep 3\nAssemble the pizzas: Spread about 1/4 cup of BBQ sauce evenly on each pizza dough, leaving a 1/2-inch border around the edges. Sprinkle with 2 ounces of grated mozzarella and layer with fresh mozzarella slices.\n\nStep 4\nAdd the toppings: Distribute the shredded chicken and red onion slices evenly over the cheese. Drizzle with a little more BBQ sauce if desired.\n\nStep 5\nBake the pizzas: Quickly slide each pizza, still on the parchment paper, onto the baking stone or preheated baking sheet. Bake for 7–9 minutes, or until the crust is golden and the cheese is melted and bubbly.\n\nStep 6\nRemove from the oven, discard parchment paper, and garnish each pizza with fresh cilantro. Slice and serve hot.\n\nEnjoy your delicious BBQ Chicken Pizza!"
+              },
+              {
+                "text": "Veggie Supreme Pizza\nTotal Time:\n1 hour, using prepared dough\n\nYield:\n4 10-inch pies\n\nIngredients\n\n1 cup marinara or pizza sauce\n8 ounces/225 grams low-moisture mozzarella, grated\n1 pound/450 grams fresh mozzarella, sliced\n1/2 cup sliced bell peppers (red, yellow, or green)\n1/2 cup sliced black olives\n1/2 cup sliced mushrooms\n1/4 cup sliced red onion\n1/4 cup sliced cherry tomatoes\n4 balls of pizza dough, ready to stretch and bake\nAll-purpose flour, for dusting\n2 tablespoons olive oil\nSalt and pepper, to taste\nFresh basil leaves, for garnish\nPreparation\n\nStep 1\nPreheat the oven to 500°F (260°C) and place a baking stone or a heavy baking sheet on the middle rack.\n\nStep 2\nPrepare the dough: Pat each dough ball into a flat disc, lightly dust both sides with flour, and stretch or roll out to a 10-inch diameter. Place each dough circle on a parchment-lined rimless baking sheet or a pizza peel.\n\nStep 3\nAssemble the pizzas: Spread 1/4 cup of marinara sauce on each pizza dough, leaving a 1/2-inch border. Sprinkle each with 2 ounces of grated mozzarella and layer with fresh mozzarella slices.\n\nStep 4\nAdd the toppings: Evenly distribute the bell peppers, olives, mushrooms, red onion, and cherry tomatoes on each pizza. Drizzle lightly with olive oil and season with salt and pepper.\n\nStep 5\nBake the pizzas: Slide each pizza, still on the parchment paper, onto the baking stone or preheated baking sheet. Bake for 7–9 minutes, or until the crust is golden and the cheese is melted and bubbly.\n\nStep 6\nRemove from the oven, discard parchment paper, and garnish each pizza with fresh basil. Slice and serve.\n\nEnjoy your Veggie Supreme Pizza!"
+              },
+              {
+                "text": "White Pizza with Spinach and Ricotta\nTotal Time:\n1 hour, using prepared dough\n\nYield:\n4 10-inch pies\n\nIngredients\n\n1 cup ricotta cheese\n8 ounces/225 grams low-moisture mozzarella, grated\n1 pound/450 grams fresh mozzarella, sliced\n1/2 cup fresh spinach, chopped\n2 garlic cloves, minced\n4 balls of pizza dough, ready to stretch and bake\nAll-purpose flour, for dusting\n2 tablespoons olive oil\nSalt and pepper, to taste\nRed pepper flakes (optional)\nFresh basil leaves, for garnish\nPreparation\n\nStep 1\nPreheat the oven to 500°F (260°C) and place a baking stone or a heavy baking sheet on the middle rack.\n\nStep 2\nPrepare the dough: Pat each dough ball into a flat disc, lightly dust both sides with flour, and stretch or roll out to a 10-inch diameter. Place each dough circle on a parchment-lined rimless baking sheet or a pizza peel.\n\nStep 3\nAssemble the pizzas: Spread 1/4 cup of ricotta cheese on each pizza dough, leaving a 1/2-inch border. Sprinkle with 2 ounces of grated mozzarella and layer with fresh mozzarella slices.\n\nStep 4\nAdd the toppings: Evenly distribute the spinach and garlic on each pizza. Drizzle lightly with olive oil, and season with salt, pepper, and red pepper flakes if desired.\n\nStep 5\nBake the pizzas: Slide each pizza, still on the parchment paper, onto the baking stone or preheated baking sheet. Bake for 7–9 minutes, or until the crust is golden and the cheese is melted and bubbly.\n\nStep 6\nRemove from the oven, discard parchment paper, and garnish with fresh basil leaves. Slice and serve.\n\nEnjoy your White Pizza with Spinach and Ricotta!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type \"another idea\" if you'd like to see other recipes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1730224335310",
+      "context": {},
+      "conditions": "@ingredients:pizza",
+      "dialog_node": "node_1_1730386633625"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a recipe for Onion Tomato masala & Dal Tadka:\nTotal Time40-45 minutes\n\nIngredients\nFor Onion Tomato Gravy\n¾-1 cup Oil (तेल)\n1 tsp Cumin Seeds (जीरा)\n4-5 medium Onions – chopped (प्याज़)\n2 tsp Degi Red Chilli Powder (देगी लाल मिर्च पाउडर)\n1 tsp Turmeric Powder (हल्दी पाउडर)\n3 tsp Coriander Powder (धनिया पाउडर)\n1 tbsp Ginger-Garlic Paste (अदरक लहसुन का पेस्ट)\n3-4 medium Pureed Tomatoes (प्यूरीड टाॅमेटो)\nSalt to taste (नमक स्वादानुसार)\n1 medium Tomato – chopped (टमाटर)\n½ tsp Vinegar (सिरका)\n\nFor Dal\n½ cup Cooked Dal (पकी हुई दाल)\nWater (पानी)\n1 heaped tbsp Onion Tomato Gravy (प्याज़ टमाटर की ग्रेवी)\n1 tbsp Coriander Leaves – chopped (धनिया पत्ता)\n\nProcess\nFor Onion Tomato Gravy\nIn a kadai heat oil and add cumin seeds, chopped onions saute them until golden brown and cook completely.\nNow add degi red chilli powder, turmeric powder, coriander powder, ginger-garlic paste and keep on sauteing until fragrant.\nThen add the tomato puree, chopped tomato, salt and cook on medium heat until properly cooked.\nFinish by adding vinegar then cook it for a minute and switch off the flames.\nCool it down and store in an airtight container in the fridge.\n \nFor Dal\nIn a hot kadai add cooked dal, water, onion tomato gravy and mix it properly then boil it for 2 minutes.\nNow add coriander leaves, stir it once and continue boiling for a minute.\nSwitch off the flames and dal is ready to serve."
+              },
+              {
+                "text": "Here is a recipe for Tomato Curry \nTotal Time 20 minutes\nServings 3\nINGREDIENTS (1 CUP = 240ML )\nHOW TO MAKE THE RECIPE\n3 large tomatoes\n¾ to 1 cup onions chopped, about 2 medium\n1 green chili slit\n1 sprig curry leaves\n1 teaspoon garlic chopped or crushed (optional)\n1 to 2 tablespoons Oil\n¼ teaspoon mustard seeds\n¼ to ½ teaspoon cumin seeds\n1 pinch hing (asafoetida) (optional)\n1 teaspoon red chili powder\n¼ teaspoon turmeric (haldi)\n⅓ teaspoon salt (adjust to taste)\n¼ cup coconut milk thick (refer notes)\n1½ to 2 tablespoons almond meal (or peanuts or sesame seeds) (optional)\n\nPreparation\nHow to make Tomato Curry\n1. Optional step: Boil tomatoes for 3 to 4 minutes in 2 cups water. This will loosen the skin. Once cool, remove the skin and discard. Discard the core as well and chop the tomatoes. If you want you can also deseed completely.\n2.  Optional: Skip this step if using almond meal. Toast the sesame seeds or peanuts on a low flame until aromatic. Cool and make a fi ne powder. If you do not have sesame or peanuts, replace with almonds or roasted gram. Set this aside.\n1. Add oil to a pan and heat it. Add cumin and mustard.\n2. When they begin to sizzle add curry leaves, green chili, garlic (optional) and hing. Let them fry fora minute or 2.\n3. Add chopped onions and salt. Saute till they turn pink, not necessarily golden. \n4. Add the chopped tomatoes and turmeric. Saute for about 3 to 4 minutes.\n5. Cook covered till the tomatoes turn soft and completely mushy.\n6. Next add red chili powder and almond meal (or sesame seeds powder or fried gram powder). Mix and cook for 2 to 3 minutes until the curry turns thick. \n7. Add coconut milk and stir. Taste the curry and add more salt if needed.\n8. When the tomato curry begins to bubble, Turn off the heat. Cooking for longer may coagulate the coconut milk if using homemade."
+              },
+              {
+                "text": "Shakshuka (Eggs Poached in Tomato and Onion Sauce)\nTotal Time:\n30 minutes\n\nYield:\nServes 4\n\nIngredients\n\n2 tablespoons olive oil\n1 large onion, sliced\n2 large tomatoes, chopped\n1 red bell pepper, chopped\n3 garlic cloves, minced\n1 teaspoon ground cumin\n1 teaspoon paprika\nSalt and pepper, to taste\n4 large eggs\nFresh parsley, chopped, for garnish\nPreparation\n\nStep 1\nHeat olive oil in a skillet over medium heat. Add onions, garlic, and bell pepper, cooking until softened, about 5 minutes.\n\nStep 2\nAdd tomatoes, cumin, paprika, salt, and pepper. Cook until the mixture thickens and becomes saucy, about 10 minutes.\n\nStep 3\nMake small wells in the tomato-onion mixture and crack an egg into each. Cover the skillet and cook until the eggs are just set, about 5 minutes.\n\nStep 4\nGarnish with fresh parsley and serve with crusty bread.\n\nEnjoy your Shakshuka!"
+              },
+              {
+                "text": "Tomato and Onion Pasta Sauce\nTotal Time:\n25 minutes\n\nYield:\nServes 4\n\nIngredients\n\n2 tablespoons olive oil\n1 large onion, finely chopped\n2 large tomatoes, finely chopped\n2 garlic cloves, minced\n1/2 teaspoon red pepper flakes (optional)\nSalt and pepper, to taste\n1 teaspoon dried oregano or basil\n1/4 cup grated Parmesan cheese\nFresh basil, for garnish\nPreparation\n\nStep 1\nHeat olive oil in a skillet over medium heat. Add onions and garlic, cooking until softened and golden, about 5 minutes.\n\nStep 2\nAdd tomatoes, red pepper flakes, salt, and pepper. Cook until tomatoes break down and sauce thickens, about 10 minutes.\n\nStep 3\nStir in dried oregano or basil. Adjust seasoning to taste.\n\nStep 4\nToss the sauce with cooked pasta, and garnish with Parmesan cheese and fresh basil.\n\nEnjoy your Tomato and Onion Pasta Sauce!"
+              },
+              {
+                "text": "Tomato Onion Bhaji (Indian Stir-Fry)\nTotal Time:\n20 minutes\n\nYield:\nServes 2-3\n\nIngredients\n\n2 tablespoons oil\n1 teaspoon mustard seeds\n1 teaspoon cumin seeds\n1 large onion, sliced\n2 large tomatoes, chopped\nSalt, to taste\n1/2 teaspoon turmeric powder\n1/2 teaspoon red chili powder (optional)\nFresh cilantro, for garnish\nPreparation\n\nStep 1\nHeat oil in a pan. Add mustard seeds and cumin seeds, letting them sizzle.\n\nStep 2\nAdd sliced onions and cook until golden brown, about 5 minutes. Add tomatoes, turmeric powder, red chili powder, and salt.\n\nStep 3\nCook until the tomatoes are soft and everything is well mixed, about 10 minutes. Garnish with fresh cilantro and serve with chapati or rice.\n\nEnjoy your Tomato Onion Bhaji!"
+              },
+              {
+                "text": "Tomato and Onion Salad\nTotal Time:\n5 minutes\n\nYield:\nServes 4\n\nIngredients\n\n2 large tomatoes, chopped\n1 large onion, thinly sliced\n1 cucumber, chopped\nSalt and pepper, to taste\n1 tablespoon lemon juice\n1 tablespoon olive oil\nFresh parsley or cilantro, for garnish\nPreparation\n\nStep 1\nIn a large mixing bowl, combine tomatoes, onion, and cucumber.\n\nStep 2\nAdd salt, pepper, lemon juice, and olive oil. Toss well to combine.\n\nStep 3\nGarnish with fresh parsley or cilantro and serve immediately.\n\nEnjoy your fresh Tomato and Onion Salad!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type \"another idea\" if you'd like to see other recipes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1730223677001",
+      "conditions": "$ingredients:tomato || $ingredients:onion && $restrictions:dairy-free || $ingredients:tomato || $ingredients:tomato && $restrictions:vegan || $ingredients:tomato || $ingredients:onion && $restrictions:vegetarian || $ingredients:tomato || $ingredients:tomato && $restrictions:none",
+      "dialog_node": "node_1_1730644907320",
+      "previous_sibling": "node_4_1730644583730"
+    },
+    {
+      "type": "standard",
+      "title": "tomato & onion",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a recipe for Onion Tomato masala & Dal Tadka:\nTotal Time40-45 minutes\n\nIngredients\nFor Onion Tomato Gravy\n¾-1 cup Oil (तेल)\n1 tsp Cumin Seeds (जीरा)\n4-5 medium Onions – chopped (प्याज़)\n2 tsp Degi Red Chilli Powder (देगी लाल मिर्च पाउडर)\n1 tsp Turmeric Powder (हल्दी पाउडर)\n3 tsp Coriander Powder (धनिया पाउडर)\n1 tbsp Ginger-Garlic Paste (अदरक लहसुन का पेस्ट)\n3-4 medium Pureed Tomatoes (प्यूरीड टाॅमेटो)\nSalt to taste (नमक स्वादानुसार)\n1 medium Tomato – chopped (टमाटर)\n½ tsp Vinegar (सिरका)\n\nFor Dal\n½ cup Cooked Dal (पकी हुई दाल)\nWater (पानी)\n1 heaped tbsp Onion Tomato Gravy (प्याज़ टमाटर की ग्रेवी)\n1 tbsp Coriander Leaves – chopped (धनिया पत्ता)\n\nProcess\nFor Onion Tomato Gravy\nIn a kadai heat oil and add cumin seeds, chopped onions saute them until golden brown and cook completely.\nNow add degi red chilli powder, turmeric powder, coriander powder, ginger-garlic paste and keep on sauteing until fragrant.\nThen add the tomato puree, chopped tomato, salt and cook on medium heat until properly cooked.\nFinish by adding vinegar then cook it for a minute and switch off the flames.\nCool it down and store in an airtight container in the fridge.\n \nFor Dal\nIn a hot kadai add cooked dal, water, onion tomato gravy and mix it properly then boil it for 2 minutes.\nNow add coriander leaves, stir it once and continue boiling for a minute.\nSwitch off the flames and dal is ready to serve."
+              },
+              {
+                "text": "Here is a recipe for Tomato Curry \nTotal Time 20 minutes\nServings 3\nINGREDIENTS (1 CUP = 240ML )\nHOW TO MAKE THE RECIPE\n3 large tomatoes\n¾ to 1 cup onions chopped, about 2 medium\n1 green chili slit\n1 sprig curry leaves\n1 teaspoon garlic chopped or crushed (optional)\n1 to 2 tablespoons Oil\n¼ teaspoon mustard seeds\n¼ to ½ teaspoon cumin seeds\n1 pinch hing (asafoetida) (optional)\n1 teaspoon red chili powder\n¼ teaspoon turmeric (haldi)\n⅓ teaspoon salt (adjust to taste)\n¼ cup coconut milk thick (refer notes)\n1½ to 2 tablespoons almond meal (or peanuts or sesame seeds) (optional)\n\nPreparation\nHow to make Tomato Curry\n1. Optional step: Boil tomatoes for 3 to 4 minutes in 2 cups water. This will loosen the skin. Once cool, remove the skin and discard. Discard the core as well and chop the tomatoes. If you want you can also deseed completely.\n2.  Optional: Skip this step if using almond meal. Toast the sesame seeds or peanuts on a low flame until aromatic. Cool and make a fi ne powder. If you do not have sesame or peanuts, replace with almonds or roasted gram. Set this aside.\n1. Add oil to a pan and heat it. Add cumin and mustard.\n2. When they begin to sizzle add curry leaves, green chili, garlic (optional) and hing. Let them fry fora minute or 2.\n3. Add chopped onions and salt. Saute till they turn pink, not necessarily golden. \n4. Add the chopped tomatoes and turmeric. Saute for about 3 to 4 minutes.\n5. Cook covered till the tomatoes turn soft and completely mushy.\n6. Next add red chili powder and almond meal (or sesame seeds powder or fried gram powder). Mix and cook for 2 to 3 minutes until the curry turns thick. \n7. Add coconut milk and stir. Taste the curry and add more salt if needed.\n8. When the tomato curry begins to bubble, Turn off the heat. Cooking for longer may coagulate the coconut milk if using homemade."
+              },
+              {
+                "text": "Shakshuka (Eggs Poached in Tomato and Onion Sauce)\nTotal Time:\n30 minutes\n\nYield:\nServes 4\n\nIngredients\n\n2 tablespoons olive oil\n1 large onion, sliced\n2 large tomatoes, chopped\n1 red bell pepper, chopped\n3 garlic cloves, minced\n1 teaspoon ground cumin\n1 teaspoon paprika\nSalt and pepper, to taste\n4 large eggs\nFresh parsley, chopped, for garnish\nPreparation\n\nStep 1\nHeat olive oil in a skillet over medium heat. Add onions, garlic, and bell pepper, cooking until softened, about 5 minutes.\n\nStep 2\nAdd tomatoes, cumin, paprika, salt, and pepper. Cook until the mixture thickens and becomes saucy, about 10 minutes.\n\nStep 3\nMake small wells in the tomato-onion mixture and crack an egg into each. Cover the skillet and cook until the eggs are just set, about 5 minutes.\n\nStep 4\nGarnish with fresh parsley and serve with crusty bread.\n\nEnjoy your Shakshuka!"
+              },
+              {
+                "text": "Tomato and Onion Pasta Sauce\nTotal Time:\n25 minutes\n\nYield:\nServes 4\n\nIngredients\n\n2 tablespoons olive oil\n1 large onion, finely chopped\n2 large tomatoes, finely chopped\n2 garlic cloves, minced\n1/2 teaspoon red pepper flakes (optional)\nSalt and pepper, to taste\n1 teaspoon dried oregano or basil\n1/4 cup grated Parmesan cheese\nFresh basil, for garnish\nPreparation\n\nStep 1\nHeat olive oil in a skillet over medium heat. Add onions and garlic, cooking until softened and golden, about 5 minutes.\n\nStep 2\nAdd tomatoes, red pepper flakes, salt, and pepper. Cook until tomatoes break down and sauce thickens, about 10 minutes.\n\nStep 3\nStir in dried oregano or basil. Adjust seasoning to taste.\n\nStep 4\nToss the sauce with cooked pasta, and garnish with Parmesan cheese and fresh basil.\n\nEnjoy your Tomato and Onion Pasta Sauce!"
+              },
+              {
+                "text": "Tomato Onion Bhaji (Indian Stir-Fry)\nTotal Time:\n20 minutes\n\nYield:\nServes 2-3\n\nIngredients\n\n2 tablespoons oil\n1 teaspoon mustard seeds\n1 teaspoon cumin seeds\n1 large onion, sliced\n2 large tomatoes, chopped\nSalt, to taste\n1/2 teaspoon turmeric powder\n1/2 teaspoon red chili powder (optional)\nFresh cilantro, for garnish\nPreparation\n\nStep 1\nHeat oil in a pan. Add mustard seeds and cumin seeds, letting them sizzle.\n\nStep 2\nAdd sliced onions and cook until golden brown, about 5 minutes. Add tomatoes, turmeric powder, red chili powder, and salt.\n\nStep 3\nCook until the tomatoes are soft and everything is well mixed, about 10 minutes. Garnish with fresh cilantro and serve with chapati or rice.\n\nEnjoy your Tomato Onion Bhaji!"
+              },
+              {
+                "text": "Tomato and Onion Salad\nTotal Time:\n5 minutes\n\nYield:\nServes 4\n\nIngredients\n\n2 large tomatoes, chopped\n1 large onion, thinly sliced\n1 cucumber, chopped\nSalt and pepper, to taste\n1 tablespoon lemon juice\n1 tablespoon olive oil\nFresh parsley or cilantro, for garnish\nPreparation\n\nStep 1\nIn a large mixing bowl, combine tomatoes, onion, and cucumber.\n\nStep 2\nAdd salt, pepper, lemon juice, and olive oil. Toss well to combine.\n\nStep 3\nGarnish with fresh parsley or cilantro and serve immediately.\n\nEnjoy your fresh Tomato and Onion Salad!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type \"another idea\" if you'd like to see other recipes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1730224335310",
+      "conditions": "@ingredients:tomato || @ingredients:onion",
+      "dialog_node": "node_1_1730645208941",
+      "previous_sibling": "node_3_1730386898883"
+    },
+    {
+      "type": "standard",
+      "title": "thanks_no",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Happy cooking!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1730392927261",
+      "conditions": "#no",
+      "dialog_node": "node_1_1730646512822",
+      "previous_sibling": "node_8_1730643289747"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a recipe for Pepperoni and Mushroom Pizza\nTotal Time:\n1 hour, using prepared dough\n\nYield:\n4 10-inch pies\n\nIngredients\n\n1 cup marinara or pizza sauce\n8 ounces/225 grams low-moisture mozzarella, grated\n1 pound/450 grams fresh mozzarella, sliced\n1 cup sliced mushrooms (such as cremini or button mushrooms)\n1 cup thinly sliced pepperoni\n4 balls of pizza dough, ready to stretch and bake (see recipe)\nAll-purpose flour, for dusting\n2 tablespoons olive oil\nSalt and pepper, to taste\nFresh basil leaves, for garnish\nOptional: 1 teaspoon dried oregano or Italian seasoning\nPreparation\n\nStep 1\nPreheat the oven to 500°F (260°C) and place a baking stone or a heavy baking sheet on the middle rack.\n\nStep 2\nPrepare the dough: Pat each dough ball into a flat disc, lightly dust both sides with flour, and stretch or roll out to a 10-inch diameter. Place each dough circle on a parchment-lined rimless baking sheet, or use a rimmed baking sheet turned upside down, or a pizza peel.\n\nStep 3\nAssemble the pizzas: Spread 1/4 cup of marinara sauce evenly on each pizza dough, leaving a 1/2-inch border around the edges. Sprinkle each with 2 ounces of grated mozzarella and layer with fresh mozzarella slices.\n\nStep 4\nTop with an even layer of sliced mushrooms and pepperoni slices. Drizzle with olive oil and season with a little salt, pepper, and optional oregano or Italian seasoning.\n\nStep 5\nBake the pizzas: Quickly slide each pizza, still on the parchment paper, onto the baking stone or preheated baking sheet. Bake for 7–9 minutes, or until the crust is golden and the cheese is melted and bubbly.\n\nStep 6\nRemove from the oven, discard parchment paper, and garnish each pizza with fresh basil leaves. Slice and serve hot.\n\nEnjoy your homemade Pepperoni and Mushroom Pizza!"
+              },
+              {
+                "text": "Here is a recipe for Pizza Margherita\n\nTotal Time\n15 minutes, plus 1 hour to heat oven\nIngredients\nYield:2 servings\n•\t12-inch round of pizza dough, stretched (see recipe)\n•\t3tablespoons tomato sauce (see note)\n•\tExtra-virgin olive oil\n•\t2¾ounces fresh mozzarella\n•\t4 to 5basil leaves, roughly torn\nPreparation\n1.\tStep 1\nPlace a pizza stone or tiles on the middle rack of your oven and turn heat to its highest setting. Let it heat for at least an hour.\n2.\tStep 2\nPut the sauce in the center of the stretched dough and use the back of a spoon to spread it evenly across the surface, stopping approximately ½ inch from the edges.\n3.\tStep 3\nDrizzle a little olive oil over the pie. Break the cheese into large pieces and place these gently on the sauce. Scatter basil leaves over the top.\n4.\tStep 4\nUsing a pizza peel, pick up the pie and slide it onto the heated stone or tiles in the oven. Bake until the crust is golden brown and the cheese is bubbling, approximately 4 to 8 minutes."
+              },
+              {
+                "text": "Here is a recipe for Pizza With Sweet and Hot Peppers\n\nTotal Time\n1 hour, using prepared dough\nIngredients\nYield:\n4 10-inch pies\n6cups thinly sliced bell pepper or other sweet pepper\n2cups thinly sliced red onion\n1jalapeño pepper, thinly sliced\n2garlic cloves, minced\n3tablespoons olive oil\nSalt\n4balls of pizza dough, ready to stretch and bake (see recipe)\nAll-purpose flour, for dusting\n8ounces/225 grams low-moisture mozzarella or Fontina, grated\n1pound/450 grams fresh mozzarella\n8ounces/225 grams Italian fennel sausage (2 sausages in casings), cut into ½-inch pieces (optional)\n1tablespoon chopped fresh marjoram\nBasil leaves, for garnish\n\nPreparation\nStep 1\nPrepare the pepper mixture: Place peppers, onion, jalapeño, garlic and oil in a mixing bowl. Season well with salt and toss to distribute seasoning, then set aside.\n\nStep 2\nHeat oven to 500 degrees and place a baking stone or heavy baking sheet on middle rack.\n\nStep 3\nShape the dough: Pat 1 dough ball to a flat disc, lightly dust both sides with flour and stretch by hand to a 10-inch diameter. Alternatively, lightly dust dough with flour and roll out with a pin. Place dough circle on a parchment-lined rimless baking sheet (or use a rimmed baking sheet turned upside down, or a pizza peel).\n\nStep 4\nSprinkle each pizza evenly with 2 ounces of grated cheese, leaving a ½-inch border. Top each with 4 ounces sliced fresh mozzarella. Arrange the pepper mixture over the cheeses and dot each pizza with 2 ounces of sausage meat in very small pieces. Sprinkle with a pinch of marjoram.\n\nStep 5\nTo bake, quickly slip the pizza, still on the parchment, onto the baking stone. Bake for 5 to 7 minutes, until dough is well browned and pepper mixture is slightly charred in spots. Use a large spatula to remove pizza from oven, discard parchment and place on a large cutting board. Garnish with basil leaves and cut into slices."
+              },
+              {
+                "text": "Here is a recipe for White Pizza with Spinach and Ricotta\nTotal Time:\n1 hour, using prepared dough\n\nYield:\n4 10-inch pies\n\nIngredients\n\n1 cup ricotta cheese\n8 ounces/225 grams low-moisture mozzarella, grated\n1 pound/450 grams fresh mozzarella, sliced\n1/2 cup fresh spinach, chopped\n2 garlic cloves, minced\n4 balls of pizza dough, ready to stretch and bake\nAll-purpose flour, for dusting\n2 tablespoons olive oil\nSalt and pepper, to taste\nRed pepper flakes (optional)\nFresh basil leaves, for garnish\nPreparation\n\nStep 1\nPreheat the oven to 500°F (260°C) and place a baking stone or a heavy baking sheet on the middle rack.\n\nStep 2\nPrepare the dough: Pat each dough ball into a flat disc, lightly dust both sides with flour, and stretch or roll out to a 10-inch diameter. Place each dough circle on a parchment-lined rimless baking sheet or a pizza peel.\n\nStep 3\nAssemble the pizzas: Spread 1/4 cup of ricotta cheese on each pizza dough, leaving a 1/2-inch border. Sprinkle with 2 ounces of grated mozzarella and layer with fresh mozzarella slices.\n\nStep 4\nAdd the toppings: Evenly distribute the spinach and garlic on each pizza. Drizzle lightly with olive oil, and season with salt, pepper, and red pepper flakes if desired.\n\nStep 5\nBake the pizzas: Slide each pizza, still on the parchment paper, onto the baking stone or preheated baking sheet. Bake for 7–9 minutes, or until the crust is golden and the cheese is melted and bubbly.\n\nStep 6\nRemove from the oven, discard parchment paper, and garnish with fresh basil leaves. Slice and serve.\n\nEnjoy your White Pizza with Spinach and Ricotta!"
+              },
+              {
+                "text": "Here is a recipe for BBQ Chicken Pizza\nTotal Time:\n1 hour, using prepared dough\n\nYield:\n4 10-inch pies\n\nIngredients\n\n1 cup BBQ sauce, plus more for drizzling\n8 ounces/225 grams low-moisture mozzarella, grated\n1 pound/450 grams fresh mozzarella, sliced\n2 cups cooked chicken breast, shredded or diced\n1/2 red onion, thinly sliced\n4 balls of pizza dough, ready to stretch and bake\nAll-purpose flour, for dusting\n2 tablespoons olive oil\nSalt and pepper, to taste\nFresh cilantro, chopped, for garnish\nPreparation\n\nStep 1\nPreheat the oven to 500°F (260°C) and place a baking stone or a heavy baking sheet on the middle rack.\n\nStep 2\nPrepare the dough: Pat each dough ball into a flat disc, lightly dust both sides with flour, and stretch or roll out to a 10-inch diameter. Place each dough circle on a parchment-lined rimless baking sheet or a pizza peel.\n\nStep 3\nAssemble the pizzas: Spread about 1/4 cup of BBQ sauce evenly on each pizza dough, leaving a 1/2-inch border around the edges. Sprinkle with 2 ounces of grated mozzarella and layer with fresh mozzarella slices.\n\nStep 4\nAdd the toppings: Distribute the shredded chicken and red onion slices evenly over the cheese. Drizzle with a little more BBQ sauce if desired.\n\nStep 5\nBake the pizzas: Quickly slide each pizza, still on the parchment paper, onto the baking stone or preheated baking sheet. Bake for 7–9 minutes, or until the crust is golden and the cheese is melted and bubbly.\n\nStep 6\nRemove from the oven, discard parchment paper, and garnish each pizza with fresh cilantro. Slice and serve hot.\n\nEnjoy your delicious BBQ Chicken Pizza!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1730223677001",
+      "conditions": "$ingredients:pizza && $restrictions:none",
+      "dialog_node": "node_1_1730858883229",
+      "previous_sibling": "node_10_1730392825947"
+    },
+    {
+      "type": "standard",
+      "title": "eggs",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Baked Eggs With Onions and Cheese\n\nTotal Time\n30 minutes\nIngredients\nYield:\n4 to 8 servings\n4tablespoons butter or olive oil\n4cups sliced onions\nSalt and freshly ground black pepper\n1½cups coarse bread crumbs\n1cup grated Gruyere or Cantal cheese\n½cup grated Parmesan\n8eggs\n\nPreparation\nStep 1\nPreheat oven to 450 degrees. Put butter or oil in large, ovenproof skillet, and set over medium-high heat. Add onions and a liberal sprinkling of salt and pepper, cover skillet and turn heat to medium. Cook, stirring occasionally, until onions are very soft and tender but not browned, for about 15 minutes.\n\nStep 2\nCombine bread crumbs and cheeses, and sprinkle half of this mixture over onions. Use back of spoon to make 8 little nests in the mixture, and crack 1 egg into each. Season with salt and pepper, and distribute remaining bread crumbs and cheese mixture over top.\n\nStep 3\nBake for 5 minutes, or until eggs are barely set. Turn on broiler, and run skillet under it to brown top for a minute or so, being careful not to overcook the eggs. Serve hot or at room temperature."
+              },
+              {
+                "text": "Cheesy Eggs on Toast\nTotal Time\n10 minutes\nIngredients\nYield:\n1 serving\n2large eggs\nSalt and pepper\n1½tablespoons unsalted butter\n1slice bread\n¼cup shredded cheese (Cheddar, Monterey Jack or a blend)\n\nPreparation\nStep 1\nCrack the eggs into a bowl and sprinkle generously with salt and pepper. Beat with a fork until evenly yellow. Leave the bowl next to the stove while you make the toast.\n\nStep 2\nIn a small nonstick skillet, melt a thin slice of the butter over medium-low heat. Swipe the bread in the melted butter to soak it all up. Let sit until golden brown, 2 to 3 minutes. Add another thin slice of butter to the pan then flip the bread, swiping it in the newly melted butter until it’s all soaked up. Turn the heat to the lowest setting and let the bread sit until lightly browned, 1 to 2 minutes. Transfer to a plate.\n\nStep 3\nAdd the remaining butter and the eggs and cook, stirring gently and constantly with a wooden spoon, until the butter melts and the eggs are half wet and half solid, 15 to 45 seconds. Turn off the heat, add the cheese and continue stirring until the mixture is creamy but no longer wet, about 30 to 45 seconds. Scrape onto the toast right away and enjoy."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type \"another idea\" if you'd like to see other recipes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1730224335310",
+      "conditions": "@ingredients:eggs || @ingredients:breakfast",
+      "dialog_node": "node_1_1730860110871",
+      "previous_sibling": "node_1_1730645208941"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let me know how else I can help.  You can always type \"I need a recipe\" to pull up our recipe finder."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1470200489267",
+      "previous_sibling": "node_3_1730387682799"
+    },
+    {
+      "type": "standard",
+      "title": "chicken",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a recipe for Slow-Roasted Oregano Chicken With Buttered Tomatoes:\nTotal Time\nAbout 3 hours\nIngredients\nYield:\n4 to 6 servings\n1(3½- to 4-pound) whole chicken\nKosher salt and freshly ground black pepper\n¼cup olive oil\n1½tablespoons fennel seeds, crushed in a mortar and pestle or spice mill, or chopped with a knife\n1bunch fresh oregano\n1½pounds small vine-ripened tomatoes (about 6), halved lengthwise\n2heads of garlic, halved crosswise (it's fine to leave the skin on)\n2tablespoons unsalted butter, cut into pieces\n2tablespoons red wine vinegar or white wine vinegar\n4 to 6(1-inch-thick) slices of good country bread, such as country loaf or sourdough, toasted (optional)\n\nPreparation\nStep 1\nHeat the oven to 325 degrees. Season the chicken with salt and pepper. (If you can do this in advance, please do.) Drizzle it with the olive oil and sprinkle with the fennel seeds.\n\nStep 2\nStuff the cavity with half the oregano and place in a large baking dish. Scatter the tomatoes, garlic, butter and remaining oregano around the chicken. Roast until the chicken is golden brown and completely cooked through, and the tomatoes are nice and jammy, 2½ to 3 hours. Add the vinegar to the tomatoes and let the chicken rest in the baking dish for 10 minutes.\n\nStep 3\nPlace toast, if using, on serving platter and spoon the jammy tomatoes over or around the toast. Carve the chicken and place on top of the toast to catch the juices.\n\nTip\nThe chicken can be roasted a few hours ahead; it’s very good at room temperature."
+              },
+              {
+                "text": "Here is a recipe for Peruvian Roasted Chicken With Spicy Cilantro Sauce\nTotal Time\n50 minutes plus marinating time\n\nIngredients\nYield:\n4 servings\nFor the Chicken\n6garlic cloves, finely grated or minced\n3tablespoons soy sauce\n1tablespoon aji amarillo paste or another chile paste such as sriracha or sambal\n1tablespoon lime juice\n1teaspoon aji panca paste or 1 teaspoon pasilla chile powder\n1teaspoon Dijon mustard\n1teaspoon ground cumin\n1teaspoon freshly ground black pepper\n½teaspoon fine sea salt\n1(3½- to 4½-pound) chicken, halved (see Note) or 4 pounds bone-in, skin-on chicken parts\nExtra-virgin olive oil, as needed\nFor the Sauce\n1cup cilantro leaves and tender stems\n3 to 4jalapeños, seeded and diced\n¼cup/1 ounce crumbled feta cheese\n1garlic clove, chopped\n1½tablespoons lime juice, more to taste\n2teaspoons chopped fresh oregano or basil\n¾teaspoon fine sea salt, more to taste\n½teaspoon Dijon mustard\n½tablespoon aji amarillo or other chile paste (see headnote)\n½teaspoon honey\n½teaspoon ground cumin\n½cup extra-virgin olive oil\nLime wedges, for garnish\n\nPreparation\nStep 1\nFor the marinade: In a large bowl, whisk together garlic, soy sauce, aji amarillo paste, lime juice, aji panca paste, mustard, cumin, pepper and salt.\n\nStep 2\nAdd chicken halves, turning to coat them all over with marinade. Cover and refrigerate at least 2 hours and up to 12 hours.\n\nStep 3\nHeat the oven to 450 degrees. Remove chicken from marinade and pat dry with paper towels. Arrange skin-side up on a rimmed baking sheet and drizzle with oil.\n\nStep 4\nRoast until skin is golden and chicken is cooked through, 35 to 45 minutes (if using chicken parts, remove the breasts after 25 to 35 minutes). Remove from oven and let sit, loosely covered with foil, for 10 minutes before serving.\n\nStep 5\nWhile chicken is roasting, make the sauce. In a blender, blend cilantro, jalapeños, feta, garlic, lime juice, oregano, salt, mustard, aji amarillo paste, honey, and cumin until smooth. With the motor running, slowly drizzle in oil until mixture is emulsified. Taste and adjust the seasonings with salt or lime juice or both.\n\nStep 6\nCarve the chicken and serve with the sauce and lime wedges on the side."
+              },
+              {
+                "text": "Lemon Garlic Butter Chicken\nTotal Time:\n30 minutes\n\nYield:\nServes 4\n\nIngredients\n\n4 boneless, skinless chicken breasts\nSalt and pepper, to taste\n1/2 cup all-purpose flour\n3 tablespoons butter, divided\n2 tablespoons olive oil\n3 garlic cloves, minced\n1 cup chicken broth\nJuice of 1 lemon\n1 teaspoon lemon zest\n1/4 cup fresh parsley, chopped, for garnish\nLemon slices, for garnish\nPreparation\n\nStep 1\nSeason chicken breasts with salt and pepper, then dredge lightly in flour, shaking off excess.\n\nStep 2\nIn a large skillet, heat 2 tablespoons of butter and olive oil over medium heat. Add the chicken breasts and cook for 5-7 minutes on each side, or until golden brown and cooked through. Remove the chicken and set aside.\n\nStep 3\nIn the same skillet, add remaining 1 tablespoon of butter and garlic. Sauté for 1 minute until fragrant, then add chicken broth, lemon juice, and lemon zest. Bring to a simmer, scraping up any browned bits from the bottom of the pan.\n\nStep 4\nReturn the chicken to the skillet, spooning some of the sauce over the top. Simmer for 5 minutes to let the flavors meld.\n\nStep 5\nGarnish with fresh parsley and lemon slices before serving.\n\nEnjoy your Lemon Garlic Butter Chicken!"
+              },
+              {
+                "text": "Honey Garlic Chicken Thighs\nTotal Time:\n40 minutes\n\nYield:\nServes 4\n\nIngredients\n\n8 chicken thighs, bone-in, skin-on\nSalt and pepper, to taste\n2 tablespoons olive oil\n4 garlic cloves, minced\n1/4 cup honey\n2 tablespoons soy sauce\n1 tablespoon apple cider vinegar\n1/4 cup chicken broth\nFresh parsley, chopped, for garnish (optional)\nPreparation\n\nStep 1\nPreheat oven to 400°F (200°C). Season the chicken thighs with salt and pepper.\n\nStep 2\nIn an oven-safe skillet, heat olive oil over medium-high heat. Add chicken thighs, skin side down, and cook for 5-6 minutes until the skin is golden brown. Flip and cook the other side for 3 minutes. Remove the chicken from the skillet and set aside.\n\nStep 3\nIn the same skillet, add minced garlic and sauté for 1 minute until fragrant. Add honey, soy sauce, apple cider vinegar, and chicken broth. Stir well and let simmer for 2 minutes.\n\nStep 4\nReturn chicken thighs to the skillet, skin side up, and spoon some of the sauce over them. Transfer the skillet to the oven and bake for 20 minutes, or until the chicken is fully cooked and the sauce has thickened.\n\nStep 5\nGarnish with fresh parsley before serving, if desired.\n\nEnjoy your Honey Garlic Chicken Thighs!"
+              },
+              {
+                "text": "Butter Chicken (Murgh Makhani)\nTotal Time:\n45 minutes\n\nYield:\nServes 4\n\nIngredients\n\n1 lb (450 grams) boneless chicken, cut into bite-sized pieces\n1/2 cup yogurt\n1 tablespoon ginger-garlic paste\n1 teaspoon turmeric powder\n1 teaspoon chili powder\nSalt, to taste\n2 tablespoons butter\n1 large onion, finely chopped\n2 cups tomato puree\n1 teaspoon garam masala\n1/2 cup heavy cream\nFresh cilantro, chopped, for garnish\nPreparation\n\nStep 1\nIn a bowl, mix yogurt, ginger-garlic paste, turmeric powder, chili powder, and salt. Add chicken pieces to the marinade, coat well, and let marinate for 15-20 minutes.\n\nStep 2\nIn a skillet, heat 1 tablespoon of butter over medium heat. Add the marinated chicken and cook until it’s no longer pink, about 5-7 minutes. Remove chicken from the skillet and set aside.\n\nStep 3\nIn the same skillet, add the remaining butter and chopped onions. Sauté until golden brown. Add tomato puree and cook for 10 minutes until the sauce thickens.\n\nStep 4\nAdd garam masala, heavy cream, and salt to the sauce. Return the chicken to the skillet, stirring to coat it in the sauce. Simmer for 10 minutes.\n\nStep 5\nGarnish with fresh cilantro and serve with naan or rice.\n\nEnjoy your Butter Chicken!"
+              },
+              {
+                "text": "Chicken Tikka Masala\nTotal Time:\n1 hour\n\nYield:\nServes 4\n\nIngredients\n\n1 lb (450 grams) boneless chicken, cut into cubes\n1/2 cup yogurt\n1 tablespoon lemon juice\n1 tablespoon ginger-garlic paste\n1 teaspoon turmeric powder\n1 teaspoon cumin powder\n1 teaspoon coriander powder\nSalt, to taste\n2 tablespoons oil\n1 large onion, finely chopped\n1 cup tomato puree\n1/2 cup heavy cream or coconut milk\n1 teaspoon garam masala\nFresh cilantro, chopped, for garnish\nPreparation\n\nStep 1\nIn a bowl, mix yogurt, lemon juice, ginger-garlic paste, turmeric, cumin, coriander, and salt. Add chicken cubes, coat well, and let marinate for 20-30 minutes.\n\nStep 2\nIn a skillet, heat 1 tablespoon oil over medium heat. Add marinated chicken and cook until slightly charred, about 5-6 minutes. Remove chicken from skillet and set aside.\n\nStep 3\nIn the same skillet, add the remaining oil and chopped onion. Sauté until golden brown. Add tomato puree and cook until the sauce thickens, about 10 minutes.\n\nStep 4\nAdd heavy cream or coconut milk and garam masala to the sauce. Return the chicken to the skillet, stirring to coat it in the sauce. Simmer for 10 minutes.\n\nStep 5\nGarnish with fresh cilantro and serve with rice or naan.\n\nEnjoy your Chicken Tikka Masala!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type \"another idea\" if you'd like to see other recipes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1730224335310",
+      "conditions": "@ingredients:chicken",
+      "dialog_node": "node_2_1730386887941",
+      "previous_sibling": "node_1_1730386633625"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Brownies\n\nTotal Time\n45 minutes\n\nIngredients\nYield:\n9 to 12 servings\nNonstick cooking spray, for greasing\n½cup /113 grams unsalted butter (1 stick)\n1cup/200 grams granulated sugar\n½cup/86 grams dark or semisweet chocolate chips\n2large eggs\n1teaspoon vanilla extract\n½cup/47 grams unsweetened cocoa powder\n½cup/64 grams all-purpose flour\n½teaspoon kosher salt\n⅛teaspoon baking soda\n\nPreparation\nStep 1\nHeat the oven to 325 degrees, with a rack positioned in the center. Grease an 8-inch-square baking pan with cooking spray and line the bottom with parchment paper.\n\nStep 2\nCombine the butter and sugar in a small saucepan. Cook over medium heat, stirring occasionally, until the butter comes to a simmer. Turn off the heat, then add the chocolate chips and stir until melted. (The mixture will be grainy at this point.) Pour into a large mixing bowl and set aside until just warm to the touch.\n\nStep 3\nAdd the eggs and vanilla to the mixing bowl and whisk vigorously for 1 minute, until pale and glossy. Add the cocoa powder and whisk until incorporated. Add the flour, salt and baking soda and mix with a wooden spoon or spatula until well combined. Transfer the batter to the prepared pan and smooth the top.\n\nStep 4\nBake brownies until a toothpick comes out with just a few crumbs on it, 30 to 33 minutes. Cool completely in the pan before slicing into squares. Brownies will keep for up to 3 days, well-wrapped at room temperature."
+              },
+              {
+                "text": "Lemon Squares\n\nTotal Time\n1 hour\nIngredients\nYield:\n16 servings\n2cups/256 grams flour, plus ¼ cup/32 grams\n½cup confectioners' sugar/61 grams, plus 2 teaspoons\n1teaspoon kosher salt\n1cup/227 grams (2 sticks) unsalted butter, melted\n4eggs\n2cups/400 grams granulated sugar\n⅓cup/80 milliliters lemon juice (from about 1 to 2 lemons)\n½teaspoon baking powder\n\nPreparation\nStep 1\nHeat oven to 350 degrees. In a medium bowl, whisk together two cups flour, ½ cup confectioners' sugar and salt. Add melted butter and stir to thoroughly combine. Spread with clean hands in an even layer into a 9-by-13-inch pan and bake for 25 minutes.\n\nStep 2\nMeanwhile, in a medium bowl, whisk together eggs, granulated sugar, lemon juice, baking powder and remaining flour. Pour onto the hot baked shell and bake for an additional 20 to 25 minutes, or until just set. Using a small, fine meshed sieve, sift remaining confectioners' sugar on top when cool. Cut into equal bars."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type \"another idea\" if you'd like to see other recipes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1730223677001",
+      "conditions": "$ingredients:dessert && $restrictions:none",
+      "dialog_node": "node_2_1730859842087",
+      "previous_sibling": "node_8_1730859610610"
+    },
+    {
+      "type": "standard",
+      "title": "dessert",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Brownies\n\nTotal Time\n45 minutes\n\nIngredients\nYield:\n9 to 12 servings\nNonstick cooking spray, for greasing\n½cup /113 grams unsalted butter (1 stick)\n1cup/200 grams granulated sugar\n½cup/86 grams dark or semisweet chocolate chips\n2large eggs\n1teaspoon vanilla extract\n½cup/47 grams unsweetened cocoa powder\n½cup/64 grams all-purpose flour\n½teaspoon kosher salt\n⅛teaspoon baking soda\n\nPreparation\nStep 1\nHeat the oven to 325 degrees, with a rack positioned in the center. Grease an 8-inch-square baking pan with cooking spray and line the bottom with parchment paper.\n\nStep 2\nCombine the butter and sugar in a small saucepan. Cook over medium heat, stirring occasionally, until the butter comes to a simmer. Turn off the heat, then add the chocolate chips and stir until melted. (The mixture will be grainy at this point.) Pour into a large mixing bowl and set aside until just warm to the touch.\n\nStep 3\nAdd the eggs and vanilla to the mixing bowl and whisk vigorously for 1 minute, until pale and glossy. Add the cocoa powder and whisk until incorporated. Add the flour, salt and baking soda and mix with a wooden spoon or spatula until well combined. Transfer the batter to the prepared pan and smooth the top.\n\nStep 4\nBake brownies until a toothpick comes out with just a few crumbs on it, 30 to 33 minutes. Cool completely in the pan before slicing into squares. Brownies will keep for up to 3 days, well-wrapped at room temperature."
+              },
+              {
+                "text": "Lemon Squares\n\nTotal Time\n1 hour\nIngredients\nYield:\n16 servings\n2cups/256 grams flour, plus ¼ cup/32 grams\n½cup confectioners' sugar/61 grams, plus 2 teaspoons\n1teaspoon kosher salt\n1cup/227 grams (2 sticks) unsalted butter, melted\n4eggs\n2cups/400 grams granulated sugar\n⅓cup/80 milliliters lemon juice (from about 1 to 2 lemons)\n½teaspoon baking powder\n\nPreparation\nStep 1\nHeat oven to 350 degrees. In a medium bowl, whisk together two cups flour, ½ cup confectioners' sugar and salt. Add melted butter and stir to thoroughly combine. Spread with clean hands in an even layer into a 9-by-13-inch pan and bake for 25 minutes.\n\nStep 2\nMeanwhile, in a medium bowl, whisk together eggs, granulated sugar, lemon juice, baking powder and remaining flour. Pour onto the hot baked shell and bake for an additional 20 to 25 minutes, or until just set. Using a small, fine meshed sieve, sift remaining confectioners' sugar on top when cool. Cut into equal bars."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type \"another idea\" if you'd like to see other recipes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1730224335310",
+      "conditions": "@ingredients:dessert",
+      "dialog_node": "node_2_1730860301049",
+      "previous_sibling": "node_1_1730860110871"
+    },
+    {
+      "type": "frame",
+      "title": "Ingredients - true",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1730649607376",
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "$ingredients == null && $restrictions == null",
+      "dialog_node": "node_3_1730223677001"
+    },
+    {
+      "type": "standard",
+      "title": "pasta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a recipe for Lasagna:\nIngredients\nYield:\n8 to 10 servings\nFor the Sauce\n1cup extra virgin olive oil\n2medium red onions, finely diced\n2large cloves minced garlic\n8ounces pancetta, diced\nSalt and freshly ground black pepper\n1½cups good red wine, preferably Italian\n228-ounce cans Italian plum tomatoes\n3tablespoons tomato paste\n¾pound ground sirloin\n¼cup freshly grated Pecorino Romano\n2eggs\n10sprigs fresh parsley, leaves only, washed and dried\n2large whole cloves garlic\n½cup flour\n1pound Italian sausage, a mix of hot and sweet\nFor the Lasagna\n115-ounce container ricotta cheese\n2eggs\n2cups freshly grated Pecorino Romano\n½cup chopped parsley\n1pound mozzarella, grated\n16sheets fresh lasagna noodles, preferably Antica Pasteria\n\nStep 1\nFor the sauce, heat ½ cup oil in a large heavy Dutch oven or kettle over low heat. Add the onions, minced garlic and pancetta, and cook, stirring, for 10 minutes, until the onions are wilted. Season liberally with salt and pepper. Raise heat slightly, add the wine and cook until it is mostly reduced, about 20 minutes. Crush the tomatoes into the pan, and add their juice. Add the tomato paste and 2 cups lukewarm water. Simmer for 1 hour.\n\nStep 2\nCombine the sirloin, cheese and eggs in a large bowl. Chop the parsley with the whole garlic until fine, then stir into the beef mixture. Season lavishly with salt and pepper. Using your hands, mix until all the ingredients are well blended. Shape into meatballs and set aside.\n\nStep 3\nHeat the remaining oil in a large skillet over medium-high heat. Dust the meatballs lightly with flour, shaking off excess, and lay into the hot oil. Brown the meatballs on all sides (do not cook through) and transfer to the sauce.\n\nStep 4\nIn a clean skillet, brown the sausages over medium-high heat. Transfer to the sauce. Simmer 1½ hours.\n\nStep 5\nHeat the oven to 350 degrees. In a large bowl, combine the ricotta, eggs, Pecorino Romano, parsley and all but 1 cup of the mozzarella. Season well with salt and pepper. Mix thoroughly.\n\nStep 6\nRemove the meatballs and sausage from the sauce, and set aside to cool slightly, then chop coarsely. Spoon a thick layer of sauce into the bottom of a 9-by-12-inch lasagna pan. Cover with a layer of noodles. Spoon more sauce on top, then add a third of the meat and a third of the cheese mixture. Repeat for 2 more layers, using all the meat and cheese. Top with a layer of noodles, and cover with the remaining sauce. Sprinkle reserved mozzarella evenly over the top. Bake 30 minutes. Let stand 10 minutes before serving."
+              },
+              {
+                "text": "Here is a recipe for Angel Hair Pasta\nTotal Time\n30 minutes\n\nIngredients\nYield:\n4 servings\nSalt\n¼cup extra-virgin olive oil\n3tablespoons butter\n1pound cherry tomatoes, halved\n3garlic cloves, minced\n1shallot, minced\nFreshly ground black pepper\nCrushed red pepper (optional)\n1pound angel hair pasta\n2tablespoons minced fresh parsley or 2 teaspoons dried parsley\n2tablespoons minced fresh basil or 2 teaspoons dried basil\nFreshly grated Parmesan, for serving\n\nStep 1\nHeat a large pasta pot of salted water to a boil.\n\nStep 2\nTo a large pan over medium heat, add olive oil and butter. Allow the butter to melt, then add cherry tomatoes. Cook until tomatoes are beginning to soften and the skins are a little blistered, 4 to 6 minutes.\n\nStep 3\nAdd garlic, shallot, 1 teaspoon each of kosher salt and black pepper, and a pinch of red pepper, if using, and toss to combine with the tomatoes. Cook for about 6 minutes, until the shallots are translucent and the tomatoes are fully softened yet still intact. Meanwhile, add pasta to the boiling salted water and cook until al dente according to the packaging directions, about 2 minutes. Reserve 1 cup of pasta water, then strain the pasta.\n\nStep 4\nAdd the cooked pasta, herbs and a bit of the reserved pasta water to the pan and cook for 2 minutes, stirring to combine, until you have a glossy pasta sauce; add more pasta water slowly, if needed. Serve topped with plenty of Parmesan."
+              },
+              {
+                "text": "Classic Spaghetti Aglio e Olio\nTotal Time:\n20 minutes\n\nYield:\nServes 4\n\nIngredients\n\n1 lb (450 grams) spaghetti\n1/4 cup extra virgin olive oil\n6 garlic cloves, thinly sliced\n1/2 teaspoon red pepper flakes (adjust to taste)\nSalt, to taste\nFresh parsley, chopped, for garnish\nGrated Parmesan, for serving (optional)\nPreparation\n\nStep 1\nCook spaghetti according to package instructions in salted water. Reserve 1/2 cup of the pasta water before draining.\n\nStep 2\nIn a large skillet, heat olive oil over medium heat. Add garlic slices and red pepper flakes. Sauté for 1-2 minutes until garlic is golden but not burnt.\n\nStep 3\nAdd the cooked spaghetti to the skillet along with a splash of reserved pasta water. Toss to coat the spaghetti in the garlic oil.\n\nStep 4\nSeason with salt, garnish with fresh parsley, and sprinkle with Parmesan if desired.\n\nEnjoy your simple Spaghetti Aglio e Olio!"
+              },
+              {
+                "text": "Creamy Pesto Pasta\nTotal Time:\n25 minutes\n\nYield:\nServes 4\n\nIngredients\n\n1 lb (450 grams) pasta of your choice (penne, fusilli, etc.)\n1/2 cup pesto sauce (store-bought or homemade)\n1/2 cup heavy cream or half-and-half\nSalt and pepper, to taste\n1/4 cup grated Parmesan\nFresh basil leaves, for garnish\nPreparation\n\nStep 1\nCook the pasta according to package instructions in salted water. Reserve 1/4 cup of the pasta water before draining.\n\nStep 2\nIn a skillet, warm pesto and heavy cream over medium heat, stirring until smooth.\n\nStep 3\nAdd the cooked pasta and reserved pasta water to the skillet. Stir to coat the pasta evenly with the sauce. Season with salt and pepper.\n\nStep 4\nSprinkle with Parmesan and garnish with fresh basil leaves before serving.\n\nEnjoy your Creamy Pesto Pasta!"
+              },
+              {
+                "text": "Garlic Parmesan Pasta\n\nTotal Time:\n15 minutes\n\nYield:\nServes 4\n\nIngredients\n\n8 ounces spaghetti or any pasta of choice\n3 tablespoons butter\n3 garlic cloves, minced\n1/4 teaspoon red pepper flakes (optional)\nSalt and pepper, to taste\n1/2 cup grated Parmesan cheese\nFresh parsley, chopped, for garnish\nPreparation\n\nStep 1\nCook pasta according to package instructions. Drain and set aside.\n\nStep 2\nIn a large skillet, melt butter over medium heat. Add minced garlic and red pepper flakes, sautéing until fragrant (about 1 minute).\n\nStep 3\nAdd the cooked pasta to the skillet. Toss with salt, pepper, and Parmesan cheese until well combined.\n\nStep 4\nGarnish with fresh parsley and serve immediately.\n\nEnjoy your quick and easy Garlic Parmesan Pasta!\n\n2. Creamy Tomato Pasta\n\nTotal Time:\n20 minutes\n\nYield:\nServes 4\n\nIngredients\n\n8 ounces penne or pasta of choice\n1 tablespoon olive oil\n1 small onion, diced\n2 garlic cloves, minced\n1 cup tomato sauce\n1/2 cup heavy cream\nSalt and pepper, to taste\n1/4 cup grated Parmesan cheese\nFresh basil, chopped, for garnish\nPreparation\n\nStep 1\nCook pasta according to package instructions. Drain and set aside.\n\nStep 2\nIn a large skillet, heat olive oil over medium heat. Add onion and garlic, sautéing until soft (about 3 minutes).\n\nStep 3\nAdd tomato sauce and simmer for 5 minutes. Stir in heavy cream, salt, and pepper. Let it simmer until it slightly thickens.\n\nStep 4\nAdd the cooked pasta and Parmesan cheese, tossing to combine. Garnish with fresh basil.\n\nEnjoy your Creamy Tomato Pasta!"
+              },
+              {
+                "text": "Pesto Pasta with Sun-Dried Tomatoes and Chicken\n\nTotal Time:\n30 minutes\n\nYield:\nServes 4\n\nIngredients\n\n8 ounces pasta of choice (like fusilli or penne)\n1 tablespoon olive oil\n1 lb chicken breast, diced\nSalt and pepper, to taste\n1/2 cup sun-dried tomatoes, chopped\n1/2 cup pesto sauce (store-bought or homemade)\n1/4 cup grated Parmesan cheese\nFresh basil, for garnish\nPreparation\n\nStep 1\nCook pasta according to package instructions. Drain and set aside.\n\nStep 2\nIn a large skillet, heat olive oil over medium heat. Season chicken with salt and pepper, then cook until golden and cooked through (about 5-7 minutes). Set chicken aside.\n\nStep 3\nIn the same skillet, add sun-dried tomatoes and sauté for 1-2 minutes. Return chicken to the skillet, and add pesto sauce, stirring to combine.\n\nStep 4\nAdd the cooked pasta and Parmesan cheese, tossing to coat. Adjust seasoning if necessary.\n\nStep 5\nGarnish with fresh basil and serve immediately.\n\nEnjoy your Pesto Pasta with Sun-Dried Tomatoes and Chicken!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type \"another idea\" if you'd like to see other recipes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1730224335310",
+      "conditions": "@ingredients:pasta",
+      "dialog_node": "node_3_1730386898883",
+      "previous_sibling": "node_2_1730386887941"
+    },
+    {
+      "type": "standard",
+      "title": "help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let me tell you about this bot.  I take input from users based on ingredients / food types and dietary restrictions and give recommendations for delicious recipes.  I am adding more recipes all the time so keep checking back for more ideas.\n\nYou can always type \"I need a recipe\" to pull up the recipe finder."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#help",
+      "dialog_node": "node_3_1730387682799",
+      "previous_sibling": "node_5_1730392927261"
+    },
+    {
+      "type": "standard",
+      "title": "another idea?",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1470199483860"
+      },
+      "conditions": "#another_idea",
+      "dialog_node": "node_3_1730645713377",
+      "previous_sibling": "node_1_1470199483860"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_1_1470199483860",
+      "context": {
+        "ingredients": null,
+        "restrictions": null
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_3_1730649607376"
+    },
+    {
+      "type": "standard",
+      "title": "corn",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Corn Risotto\n\nTotal Time\nAbout 1 hour 45 minutes\n\nIngredients\nYield:\n4 servings\nFor the Risotto\n6cups corn stock (see recipe below) or chicken stock\n2tablespoons unsalted butter\n1leek, white and light green parts only, finely chopped\n1teaspoon kosher salt\n¼teaspoon black pepper\n1cup arborio rice\n½cup dry white wine\n1½cups raw corn kernels (from about 2 ears corn)\n1cup grated Parmesan cheese\n¼cup heavy cream\n2tablespoons minced chives (optional)\nFor the Corn Stock (optional)\n2corn cobs (kernels removed and reserved for risotto)\n1onion, cut into quarters\n1carrot, cut into 1-inch pieces\n1celery rib, cut crosswise into 1-inch pieces\nDark green leaves from 1 leek (reserve white and light green parts for risotto)\n2cloves garlic, smashed\n1teaspoon salt\n1teaspoon whole black peppercorns\n\nPreparation\nFor the Risotto\n\nStep 1\nBring the corn stock or chicken stock to a simmer in a saucepan and keep it simmering as you prepare the risotto.\n\nStep 2\nMelt 1 tablespoon butter in a wide, high-sided sauté pan over medium-low heat. Add leek and cook, stirring occasionally, until softened but not browned, about 6 minutes. Season with salt and pepper. Add rice and cook, stirring, until grains look slightly translucent.\n\nStep 3\nPour in wine and cook, stirring, until it has all been absorbed, about 1 to 2 minutes.\n\nStep 4\nAdd a ladleful of hot corn stock to the rice mixture and cook, stirring constantly, until rice has absorbed all of the stock. Continue cooking, adding ladlefuls of stock whenever rice mixture looks dry and stirring continuously. When half the stock has been added, stir in corn. Continue cooking until all of the stock is incorporated, corn is tender and rice is creamy and tender, about 30 to 40 minutes total.\n\nStep 5\nRemove risotto from heat and stir in Parmesan and remaining tablespoon of butter. Cover and let stand for 5 minutes.\n\nStep 6\nIn an electric mixer fitted with the whisk attachment, beat cream at high speed until it holds stiff peaks. Uncover risotto, stir vigorously and season to taste with salt and pepper. Immediately before serving, stir in the chives, if using, then gently fold in cream.\n\nFor the Corn Stock (optional)\n\nStep 7\nCombine all ingredients with 6 cups water in a large pot. Bring to a boil over high heat. Reduce heat so liquid is simmering; cover pot and let simmer for 30 minutes. Strain through a fine-mesh strainer. Add enough water to bring liquid up to 6 cups."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type \"another idea\" if you'd like to see other recipes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1730224335310",
+      "conditions": "@ingredients:corn",
+      "dialog_node": "node_3_1730860600833",
+      "previous_sibling": "node_2_1730860301049"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a recipe for Slow-Roasted Oregano Chicken With Buttered Tomatoes:\nTotal Time\nAbout 3 hours\nIngredients\nYield:\n4 to 6 servings\n1(3½- to 4-pound) whole chicken\nKosher salt and freshly ground black pepper\n¼cup olive oil\n1½tablespoons fennel seeds, crushed in a mortar and pestle or spice mill, or chopped with a knife\n1bunch fresh oregano\n1½pounds small vine-ripened tomatoes (about 6), halved lengthwise\n2heads of garlic, halved crosswise (it's fine to leave the skin on)\n2tablespoons unsalted butter, cut into pieces\n2tablespoons red wine vinegar or white wine vinegar\n4 to 6(1-inch-thick) slices of good country bread, such as country loaf or sourdough, toasted (optional)\n\nPreparation\nStep 1\nHeat the oven to 325 degrees. Season the chicken with salt and pepper. (If you can do this in advance, please do.) Drizzle it with the olive oil and sprinkle with the fennel seeds.\n\nStep 2\nStuff the cavity with half the oregano and place in a large baking dish. Scatter the tomatoes, garlic, butter and remaining oregano around the chicken. Roast until the chicken is golden brown and completely cooked through, and the tomatoes are nice and jammy, 2½ to 3 hours. Add the vinegar to the tomatoes and let the chicken rest in the baking dish for 10 minutes.\n\nStep 3\nPlace toast, if using, on serving platter and spoon the jammy tomatoes over or around the toast. Carve the chicken and place on top of the toast to catch the juices.\n\nTip\nThe chicken can be roasted a few hours ahead; it’s very good at room temperature."
+              },
+              {
+                "text": "Here is a recipe for Peruvian Roasted Chicken With Spicy Cilantro Sauce\nTotal Time\n50 minutes plus marinating time\n\nIngredients\nYield:\n4 servings\nFor the Chicken\n6garlic cloves, finely grated or minced\n3tablespoons soy sauce\n1tablespoon aji amarillo paste or another chile paste such as sriracha or sambal\n1tablespoon lime juice\n1teaspoon aji panca paste or 1 teaspoon pasilla chile powder\n1teaspoon Dijon mustard\n1teaspoon ground cumin\n1teaspoon freshly ground black pepper\n½teaspoon fine sea salt\n1(3½- to 4½-pound) chicken, halved (see Note) or 4 pounds bone-in, skin-on chicken parts\nExtra-virgin olive oil, as needed\nFor the Sauce\n1cup cilantro leaves and tender stems\n3 to 4jalapeños, seeded and diced\n¼cup/1 ounce crumbled feta cheese\n1garlic clove, chopped\n1½tablespoons lime juice, more to taste\n2teaspoons chopped fresh oregano or basil\n¾teaspoon fine sea salt, more to taste\n½teaspoon Dijon mustard\n½tablespoon aji amarillo or other chile paste (see headnote)\n½teaspoon honey\n½teaspoon ground cumin\n½cup extra-virgin olive oil\nLime wedges, for garnish\n\nPreparation\nStep 1\nFor the marinade: In a large bowl, whisk together garlic, soy sauce, aji amarillo paste, lime juice, aji panca paste, mustard, cumin, pepper and salt.\n\nStep 2\nAdd chicken halves, turning to coat them all over with marinade. Cover and refrigerate at least 2 hours and up to 12 hours.\n\nStep 3\nHeat the oven to 450 degrees. Remove chicken from marinade and pat dry with paper towels. Arrange skin-side up on a rimmed baking sheet and drizzle with oil.\n\nStep 4\nRoast until skin is golden and chicken is cooked through, 35 to 45 minutes (if using chicken parts, remove the breasts after 25 to 35 minutes). Remove from oven and let sit, loosely covered with foil, for 10 minutes before serving.\n\nStep 5\nWhile chicken is roasting, make the sauce. In a blender, blend cilantro, jalapeños, feta, garlic, lime juice, oregano, salt, mustard, aji amarillo paste, honey, and cumin until smooth. With the motor running, slowly drizzle in oil until mixture is emulsified. Taste and adjust the seasonings with salt or lime juice or both.\n\nStep 6\nCarve the chicken and serve with the sauce and lime wedges on the side."
+              },
+              {
+                "text": "Lemon Garlic Butter Chicken\nTotal Time:\n30 minutes\n\nYield:\nServes 4\n\nIngredients\n\n4 boneless, skinless chicken breasts\nSalt and pepper, to taste\n1/2 cup all-purpose flour\n3 tablespoons butter, divided\n2 tablespoons olive oil\n3 garlic cloves, minced\n1 cup chicken broth\nJuice of 1 lemon\n1 teaspoon lemon zest\n1/4 cup fresh parsley, chopped, for garnish\nLemon slices, for garnish\nPreparation\n\nStep 1\nSeason chicken breasts with salt and pepper, then dredge lightly in flour, shaking off excess.\n\nStep 2\nIn a large skillet, heat 2 tablespoons of butter and olive oil over medium heat. Add the chicken breasts and cook for 5-7 minutes on each side, or until golden brown and cooked through. Remove the chicken and set aside.\n\nStep 3\nIn the same skillet, add remaining 1 tablespoon of butter and garlic. Sauté for 1 minute until fragrant, then add chicken broth, lemon juice, and lemon zest. Bring to a simmer, scraping up any browned bits from the bottom of the pan.\n\nStep 4\nReturn the chicken to the skillet, spooning some of the sauce over the top. Simmer for 5 minutes to let the flavors meld.\n\nStep 5\nGarnish with fresh parsley and lemon slices before serving.\n\nEnjoy your Lemon Garlic Butter Chicken!"
+              },
+              {
+                "text": "Honey Garlic Chicken Thighs\nTotal Time:\n40 minutes\n\nYield:\nServes 4\n\nIngredients\n\n8 chicken thighs, bone-in, skin-on\nSalt and pepper, to taste\n2 tablespoons olive oil\n4 garlic cloves, minced\n1/4 cup honey\n2 tablespoons soy sauce\n1 tablespoon apple cider vinegar\n1/4 cup chicken broth\nFresh parsley, chopped, for garnish (optional)\nPreparation\n\nStep 1\nPreheat oven to 400°F (200°C). Season the chicken thighs with salt and pepper.\n\nStep 2\nIn an oven-safe skillet, heat olive oil over medium-high heat. Add chicken thighs, skin side down, and cook for 5-6 minutes until the skin is golden brown. Flip and cook the other side for 3 minutes. Remove the chicken from the skillet and set aside.\n\nStep 3\nIn the same skillet, add minced garlic and sauté for 1 minute until fragrant. Add honey, soy sauce, apple cider vinegar, and chicken broth. Stir well and let simmer for 2 minutes.\n\nStep 4\nReturn chicken thighs to the skillet, skin side up, and spoon some of the sauce over them. Transfer the skillet to the oven and bake for 20 minutes, or until the chicken is fully cooked and the sauce has thickened.\n\nStep 5\nGarnish with fresh parsley before serving, if desired.\n\nEnjoy your Honey Garlic Chicken Thighs!"
+              },
+              {
+                "text": "Butter Chicken (Murgh Makhani)\nTotal Time:\n45 minutes\n\nYield:\nServes 4\n\nIngredients\n\n1 lb (450 grams) boneless chicken, cut into bite-sized pieces\n1/2 cup yogurt\n1 tablespoon ginger-garlic paste\n1 teaspoon turmeric powder\n1 teaspoon chili powder\nSalt, to taste\n2 tablespoons butter\n1 large onion, finely chopped\n2 cups tomato puree\n1 teaspoon garam masala\n1/2 cup heavy cream\nFresh cilantro, chopped, for garnish\nPreparation\n\nStep 1\nIn a bowl, mix yogurt, ginger-garlic paste, turmeric powder, chili powder, and salt. Add chicken pieces to the marinade, coat well, and let marinate for 15-20 minutes.\n\nStep 2\nIn a skillet, heat 1 tablespoon of butter over medium heat. Add the marinated chicken and cook until it’s no longer pink, about 5-7 minutes. Remove chicken from the skillet and set aside.\n\nStep 3\nIn the same skillet, add the remaining butter and chopped onions. Sauté until golden brown. Add tomato puree and cook for 10 minutes until the sauce thickens.\n\nStep 4\nAdd garam masala, heavy cream, and salt to the sauce. Return the chicken to the skillet, stirring to coat it in the sauce. Simmer for 10 minutes.\n\nStep 5\nGarnish with fresh cilantro and serve with naan or rice.\n\nEnjoy your Butter Chicken!"
+              },
+              {
+                "text": "Chicken Tikka Masala\nTotal Time:\n1 hour\n\nYield:\nServes 4\n\nIngredients\n\n1 lb (450 grams) boneless chicken, cut into cubes\n1/2 cup yogurt\n1 tablespoon lemon juice\n1 tablespoon ginger-garlic paste\n1 teaspoon turmeric powder\n1 teaspoon cumin powder\n1 teaspoon coriander powder\nSalt, to taste\n2 tablespoons oil\n1 large onion, finely chopped\n1 cup tomato puree\n1/2 cup heavy cream or coconut milk\n1 teaspoon garam masala\nFresh cilantro, chopped, for garnish\nPreparation\n\nStep 1\nIn a bowl, mix yogurt, lemon juice, ginger-garlic paste, turmeric, cumin, coriander, and salt. Add chicken cubes, coat well, and let marinate for 20-30 minutes.\n\nStep 2\nIn a skillet, heat 1 tablespoon oil over medium heat. Add marinated chicken and cook until slightly charred, about 5-6 minutes. Remove chicken from skillet and set aside.\n\nStep 3\nIn the same skillet, add the remaining oil and chopped onion. Sauté until golden brown. Add tomato puree and cook until the sauce thickens, about 10 minutes.\n\nStep 4\nAdd heavy cream or coconut milk and garam masala to the sauce. Return the chicken to the skillet, stirring to coat it in the sauce. Simmer for 10 minutes.\n\nStep 5\nGarnish with fresh cilantro and serve with rice or naan.\n\nEnjoy your Chicken Tikka Masala!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type \"another idea\" if you'd like to see other recipes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1730223677001",
+      "conditions": "$ingredients:chicken && $restrictions:none || $ingredients:chicken && $restrictions:gluten-free",
+      "dialog_node": "node_4_1730644583730",
+      "previous_sibling": "node_10_1730389325281"
+    },
+    {
+      "type": "standard",
+      "title": "soup",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Chicken Noodle Soup\n\nTotal Time\n40 minutes\n\nIngredients\nYield:\n4 to 6 servings\n2tablespoons unsalted butter\n1medium yellow onion, finely chopped\nSalt and black pepper\n8cups chicken stock\n2bay leaves or thyme sprigs (or 1 teaspoon dried thyme)\n¼cup finely chopped parsley or dill, stems reserved, plus more for garnish\n2medium carrots, cut into ½-inch pieces\n2celery stalks, cut into ½-inch pieces\n6ounces dried noodles, such as egg noodles or short pasta\n3cups shredded, cooked chicken (from 1 rotisserie chicken)\n\nPreparation\nStep 1\nIn a large pot or Dutch oven, melt the butter over medium. Add the onion, season with salt and pepper, and cook until softened but not browned, 5 to 7 minutes.\n\nStep 2\nAdd the chicken stock, bay leaves and herb stems and bring to a boil over high. Add the carrots, celery and noodles and cook, uncovered, over medium-high until the pasta is al dente according to package directions, 7 to 10 minutes. Add the chicken and simmer just until warmed, 1 to 2 minutes. Pluck out the bay leaves and herb stems, stir in the chopped parsley, and season to taste with salt and pepper."
+              },
+              {
+                "text": "Best Black Bean Soup\n\nTotal Time\nAbout 2 hours\nIngredients\nYield:\n10 servings\nFor the Soup\n1small (7-ounce) can chipotle chiles in adobo (see note)\n2tablespoons olive oil\n2carrots, peeled and chopped\n2onions, peeled and chopped\n4garlic cloves, minced\n1cup red wine\n2jalapeño peppers, seeded and chopped\n1pound dry black beans (do not soak)\n2quarts mild vegetable or chicken stock\n1tablespoon dried oregano, preferably Mexican\n2bay leaves\n1tablespoon kosher salt\n1teaspoon ground black pepper\nRed wine vinegar, to taste\nFor the Pickled Onions and Garnishes (optional)\n1small red onion, peeled and thinly sliced\nFreshly squeezed juice of 2 limes\nSalt\nSour cream or Mexican crema\nWhole cilantro leaves\nThinly sliced fresh chiles\nSliced avocado\n\nPreparation\nStep 1\nEmpty the can of chiles into a blender or food processor. Purée until smooth, scrape into a container, and set aside. Put on a teakettle of water to boil, and keep hot.\n\nStep 2\nIn a large, heavy pot, heat olive oil over medium heat until shimmering. Add carrots, onions and garlic and cook, stirring, until softened but not browned, 5 to 8 minutes.\n\nStep 3\nPour in wine and let simmer until pan is almost dry and vegetables are coated. Add jalapeños and cook, stirring, just until softened, 2 minutes. Push the vegetables out to the edges of the pot and dollop 2 teaspoons of chipotle purée in the center. Let fry for a minute and then stir together with the vegetables.\n\nStep 4\nAdd beans, stock, oregano and bay leaves. Stir, bring to a boil, and let boil 10 to 15 minutes. Reduce the heat to a simmer and cook, partly covered, stirring occasionally and adding hot water as needed to keep the soup liquid and runny, not sludgy. Continue cooking until beans are just softened and fragrant, 1 to 2 hours. Add salt and pepper and keep cooking until beans are soft.\n\nStep 5\nMeanwhile, make the pickled onions, if using: In a bowl, combine sliced onions, lime juice and a sprinkling of salt. Let soften at room temperature until crunchy and tart, about 30 minutes. Drain and rinse with cold water. Squeeze dry in paper towels and refrigerate until ready to serve. If desired, chop coarsely before serving.\n\nStep 6\nAdjust the texture of the soup: The goal is to combine whole beans, soft chunks and a velvety broth. Some beans release enough starch while cooking to produce a thick broth without puréeing. If soup seems thin, use an immersion blender or blender to purée a small amount of the beans until smooth, then stir back in. Continue until desired texture is reached, keeping in mind that the soup will continue to thicken as it sits.\n\nStep 7\nHeat the soup through, taste and adjust the seasonings with salt, pepper, drops of red wine vinegar and dabs of chipotle purée.\n\nStep 8\nServe in deep bowls, garnishing each serving with sour cream, pickled onions, cilantro leaves, sliced chiles and avocado as desired.\n\nTip\nIf chipotle chiles are unavailable, use 1 tablespoon each ground cumin and ground coriander. Add to vegetables at the same point in the recipe, in Step 3."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type \"another idea\" if you'd like to see other recipes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1730224335310",
+      "conditions": "@ingredients:soup",
+      "dialog_node": "node_4_1730861034147",
+      "previous_sibling": "node_3_1730860600833"
+    },
+    {
+      "type": "standard",
+      "title": "Ingredients - false",
+      "output": {
+        "generic": [
+          {
+            "title": "Let me suggest some ideas",
+            "options": [
+              {
+                "label": "Pizza",
+                "value": {
+                  "input": {
+                    "text": "Pizza"
+                  }
+                }
+              },
+              {
+                "label": "Pasta",
+                "value": {
+                  "input": {
+                    "text": "Pasta"
+                  }
+                }
+              },
+              {
+                "label": "Chicken",
+                "value": {
+                  "input": {
+                    "text": "Chicken"
+                  }
+                }
+              },
+              {
+                "label": "Tomato & Onion",
+                "value": {
+                  "input": {
+                    "text": "Tomato || Onion"
+                  }
+                }
+              },
+              {
+                "label": "Eggs",
+                "value": {
+                  "input": {
+                    "text": "Eggs || Breakfast"
+                  }
+                }
+              },
+              {
+                "label": "Dessert",
+                "value": {
+                  "input": {
+                    "text": "Dessert"
+                  }
+                }
+              },
+              {
+                "label": "Corn",
+                "value": {
+                  "input": {
+                    "text": "Corn"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1470199483860",
+      "conditions": "#no",
+      "dialog_node": "node_5_1730224335310",
+      "previous_sibling": "node_3_1730649607376"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No problem!  I'm happy to help.  Would you like to look for other recipes?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#thanks",
+      "dialog_node": "node_5_1730392927261",
+      "previous_sibling": "node_3_1730645713377"
+    },
+    {
+      "type": "standard",
+      "parent": "node_7_1730647264212",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1470199483860"
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_5_1730647337885"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Best Black Bean Soup\n\nTotal Time\nAbout 2 hours\nIngredients\nYield:\n10 servings\nFor the Soup\n1small (7-ounce) can chipotle chiles in adobo (see note)\n2tablespoons olive oil\n2carrots, peeled and chopped\n2onions, peeled and chopped\n4garlic cloves, minced\n1cup red wine\n2jalapeño peppers, seeded and chopped\n1pound dry black beans (do not soak)\n2quarts mild vegetable or chicken stock\n1tablespoon dried oregano, preferably Mexican\n2bay leaves\n1tablespoon kosher salt\n1teaspoon ground black pepper\nRed wine vinegar, to taste\nFor the Pickled Onions and Garnishes (optional)\n1small red onion, peeled and thinly sliced\nFreshly squeezed juice of 2 limes\nSalt\nSour cream or Mexican crema\nWhole cilantro leaves\nThinly sliced fresh chiles\nSliced avocado\n\nPreparation\nStep 1\nEmpty the can of chiles into a blender or food processor. Purée until smooth, scrape into a container, and set aside. Put on a teakettle of water to boil, and keep hot.\n\nStep 2\nIn a large, heavy pot, heat olive oil over medium heat until shimmering. Add carrots, onions and garlic and cook, stirring, until softened but not browned, 5 to 8 minutes.\n\nStep 3\nPour in wine and let simmer until pan is almost dry and vegetables are coated. Add jalapeños and cook, stirring, just until softened, 2 minutes. Push the vegetables out to the edges of the pot and dollop 2 teaspoons of chipotle purée in the center. Let fry for a minute and then stir together with the vegetables.\n\nStep 4\nAdd beans, stock, oregano and bay leaves. Stir, bring to a boil, and let boil 10 to 15 minutes. Reduce the heat to a simmer and cook, partly covered, stirring occasionally and adding hot water as needed to keep the soup liquid and runny, not sludgy. Continue cooking until beans are just softened and fragrant, 1 to 2 hours. Add salt and pepper and keep cooking until beans are soft.\n\nStep 5\nMeanwhile, make the pickled onions, if using: In a bowl, combine sliced onions, lime juice and a sprinkling of salt. Let soften at room temperature until crunchy and tart, about 30 minutes. Drain and rinse with cold water. Squeeze dry in paper towels and refrigerate until ready to serve. If desired, chop coarsely before serving.\n\nStep 6\nAdjust the texture of the soup: The goal is to combine whole beans, soft chunks and a velvety broth. Some beans release enough starch while cooking to produce a thick broth without puréeing. If soup seems thin, use an immersion blender or blender to purée a small amount of the beans until smooth, then stir back in. Continue until desired texture is reached, keeping in mind that the soup will continue to thicken as it sits.\n\nStep 7\nHeat the soup through, taste and adjust the seasonings with salt, pepper, drops of red wine vinegar and dabs of chipotle purée.\n\nStep 8\nServe in deep bowls, garnishing each serving with sour cream, pickled onions, cilantro leaves, sliced chiles and avocado as desired.\n\nTip\nIf chipotle chiles are unavailable, use 1 tablespoon each ground cumin and ground coriander. Add to vegetables at the same point in the recipe, in Step 3."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type \"another idea\" if you'd like to see other recipes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1730223677001",
+      "conditions": "$ingredients:soup && $restrictions:gluten-free || $ingredients:soup && $restrictions:vegetarian || $ingredients:soup && $restrictions:vegan",
+      "dialog_node": "node_5_1730861123914",
+      "previous_sibling": "node_8_1730860857299"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Corn Risotto\n\nTotal Time\nAbout 1 hour 45 minutes\n\nIngredients\nYield:\n4 servings\nFor the Risotto\n6cups corn stock (see recipe below) or chicken stock\n2tablespoons unsalted butter\n1leek, white and light green parts only, finely chopped\n1teaspoon kosher salt\n¼teaspoon black pepper\n1cup arborio rice\n½cup dry white wine\n1½cups raw corn kernels (from about 2 ears corn)\n1cup grated Parmesan cheese\n¼cup heavy cream\n2tablespoons minced chives (optional)\nFor the Corn Stock (optional)\n2corn cobs (kernels removed and reserved for risotto)\n1onion, cut into quarters\n1carrot, cut into 1-inch pieces\n1celery rib, cut crosswise into 1-inch pieces\nDark green leaves from 1 leek (reserve white and light green parts for risotto)\n2cloves garlic, smashed\n1teaspoon salt\n1teaspoon whole black peppercorns\n\nPreparation\nFor the Risotto\n\nStep 1\nBring the corn stock or chicken stock to a simmer in a saucepan and keep it simmering as you prepare the risotto.\n\nStep 2\nMelt 1 tablespoon butter in a wide, high-sided sauté pan over medium-low heat. Add leek and cook, stirring occasionally, until softened but not browned, about 6 minutes. Season with salt and pepper. Add rice and cook, stirring, until grains look slightly translucent.\n\nStep 3\nPour in wine and cook, stirring, until it has all been absorbed, about 1 to 2 minutes.\n\nStep 4\nAdd a ladleful of hot corn stock to the rice mixture and cook, stirring constantly, until rice has absorbed all of the stock. Continue cooking, adding ladlefuls of stock whenever rice mixture looks dry and stirring continuously. When half the stock has been added, stir in corn. Continue cooking until all of the stock is incorporated, corn is tender and rice is creamy and tender, about 30 to 40 minutes total.\n\nStep 5\nRemove risotto from heat and stir in Parmesan and remaining tablespoon of butter. Cover and let stand for 5 minutes.\n\nStep 6\nIn an electric mixer fitted with the whisk attachment, beat cream at high speed until it holds stiff peaks. Uncover risotto, stir vigorously and season to taste with salt and pepper. Immediately before serving, stir in the chives, if using, then gently fold in cream.\n\nFor the Corn Stock (optional)\n\nStep 7\nCombine all ingredients with 6 cups water in a large pot. Bring to a boil over high heat. Reduce heat so liquid is simmering; cover pot and let simmer for 30 minutes. Strain through a fine-mesh strainer. Add enough water to bring liquid up to 6 cups."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type \"another idea\" if you'd like to see other recipes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1730223677001",
+      "conditions": "$ingredients:corn && $restrictions:none || $ingredients:corn && $restrictions:vegetarian",
+      "dialog_node": "node_6_1730860509291",
+      "previous_sibling": "node_2_1730859842087"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like me to help you fetch a recipe?  You can always type \"I need a recipe\" to pull up our recipe finder, or \"help\" for information about the bot."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#start_cooking",
+      "dialog_node": "node_7_1730647264212",
+      "previous_sibling": "node_8_1730224160385"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, I'm the Watson RecipeBot. I know a lot about recipes!  How can I help you today?  You can always type \"I need a recipe\" to pull up our recipe finder or \"help\" for information about the bot."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "welcome",
+      "dialog_node": "node_8_1730222347286"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello! I'm your friendly recipe assistant here to help you cook up something delicious with the ingredients you have on hand. Just let me know what you’re working with, and I’ll suggest recipes.  Let’s get cooking! 🥄🍲"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1730224160385",
+      "previous_sibling": "node_8_1730222347286"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm sorry, I do not have any recipes with those ingredients at this time.  Please check back soon.  Type \"another recipe\" to search again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1730223677001",
+      "conditions": "@ingredients != \"pizza\" ||                       @ingredients != \"pasta\" ||                    @ingredients != \"chicken\" ||                 @ingredients != \"onion\" ||           @ingredients != \"tomato\" ||          @ingredients != \"eggs\" ||    @ingredients != \"breakfast\" ||        @ingredients != \"dessert\" &&  @ingredients != \"soup\" && @ingredients != \"corn\"",
+      "dialog_node": "node_8_1730386777756",
+      "previous_sibling": "node_5_1730861123914"
+    },
+    {
+      "type": "standard",
+      "title": "thanks_yes",
+      "parent": "node_5_1730392927261",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1470199483860"
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_8_1730643289747"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Baked Eggs With Onions and Cheese\n\nTotal Time\n30 minutes\nIngredients\nYield:\n4 to 8 servings\n4tablespoons butter or olive oil\n4cups sliced onions\nSalt and freshly ground black pepper\n1½cups coarse bread crumbs\n1cup grated Gruyere or Cantal cheese\n½cup grated Parmesan\n8eggs\n\nPreparation\nStep 1\nPreheat oven to 450 degrees. Put butter or oil in large, ovenproof skillet, and set over medium-high heat. Add onions and a liberal sprinkling of salt and pepper, cover skillet and turn heat to medium. Cook, stirring occasionally, until onions are very soft and tender but not browned, for about 15 minutes.\n\nStep 2\nCombine bread crumbs and cheeses, and sprinkle half of this mixture over onions. Use back of spoon to make 8 little nests in the mixture, and crack 1 egg into each. Season with salt and pepper, and distribute remaining bread crumbs and cheese mixture over top.\n\nStep 3\nBake for 5 minutes, or until eggs are barely set. Turn on broiler, and run skillet under it to brown top for a minute or so, being careful not to overcook the eggs. Serve hot or at room temperature."
+              },
+              {
+                "text": "Cheesy Eggs on Toast\nTotal Time\n10 minutes\nIngredients\nYield:\n1 serving\n2large eggs\nSalt and pepper\n1½tablespoons unsalted butter\n1slice bread\n¼cup shredded cheese (Cheddar, Monterey Jack or a blend)\n\nPreparation\nStep 1\nCrack the eggs into a bowl and sprinkle generously with salt and pepper. Beat with a fork until evenly yellow. Leave the bowl next to the stove while you make the toast.\n\nStep 2\nIn a small nonstick skillet, melt a thin slice of the butter over medium-low heat. Swipe the bread in the melted butter to soak it all up. Let sit until golden brown, 2 to 3 minutes. Add another thin slice of butter to the pan then flip the bread, swiping it in the newly melted butter until it’s all soaked up. Turn the heat to the lowest setting and let the bread sit until lightly browned, 1 to 2 minutes. Transfer to a plate.\n\nStep 3\nAdd the remaining butter and the eggs and cook, stirring gently and constantly with a wooden spoon, until the butter melts and the eggs are half wet and half solid, 15 to 45 seconds. Turn off the heat, add the cheese and continue stirring until the mixture is creamy but no longer wet, about 30 to 45 seconds. Scrape onto the toast right away and enjoy."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type \"another idea\" if you'd like to see other recipes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1730223677001",
+      "conditions": "$ingredients:eggs || $ingredients:breakfast && $restrictions:none || $ingredients:eggs || $ingredients:breakfast && $restrictions:vegetarian",
+      "dialog_node": "node_8_1730859610610",
+      "previous_sibling": "node_1_1730644907320"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Chicken Noodle Soup\n\nTotal Time\n40 minutes\n\nIngredients\nYield:\n4 to 6 servings\n2tablespoons unsalted butter\n1medium yellow onion, finely chopped\nSalt and black pepper\n8cups chicken stock\n2bay leaves or thyme sprigs (or 1 teaspoon dried thyme)\n¼cup finely chopped parsley or dill, stems reserved, plus more for garnish\n2medium carrots, cut into ½-inch pieces\n2celery stalks, cut into ½-inch pieces\n6ounces dried noodles, such as egg noodles or short pasta\n3cups shredded, cooked chicken (from 1 rotisserie chicken)\n\nPreparation\nStep 1\nIn a large pot or Dutch oven, melt the butter over medium. Add the onion, season with salt and pepper, and cook until softened but not browned, 5 to 7 minutes.\n\nStep 2\nAdd the chicken stock, bay leaves and herb stems and bring to a boil over high. Add the carrots, celery and noodles and cook, uncovered, over medium-high until the pasta is al dente according to package directions, 7 to 10 minutes. Add the chicken and simmer just until warmed, 1 to 2 minutes. Pluck out the bay leaves and herb stems, stir in the chopped parsley, and season to taste with salt and pepper."
+              },
+              {
+                "text": "Best Black Bean Soup\n\nTotal Time\nAbout 2 hours\nIngredients\nYield:\n10 servings\nFor the Soup\n1small (7-ounce) can chipotle chiles in adobo (see note)\n2tablespoons olive oil\n2carrots, peeled and chopped\n2onions, peeled and chopped\n4garlic cloves, minced\n1cup red wine\n2jalapeño peppers, seeded and chopped\n1pound dry black beans (do not soak)\n2quarts mild vegetable or chicken stock\n1tablespoon dried oregano, preferably Mexican\n2bay leaves\n1tablespoon kosher salt\n1teaspoon ground black pepper\nRed wine vinegar, to taste\nFor the Pickled Onions and Garnishes (optional)\n1small red onion, peeled and thinly sliced\nFreshly squeezed juice of 2 limes\nSalt\nSour cream or Mexican crema\nWhole cilantro leaves\nThinly sliced fresh chiles\nSliced avocado\n\nPreparation\nStep 1\nEmpty the can of chiles into a blender or food processor. Purée until smooth, scrape into a container, and set aside. Put on a teakettle of water to boil, and keep hot.\n\nStep 2\nIn a large, heavy pot, heat olive oil over medium heat until shimmering. Add carrots, onions and garlic and cook, stirring, until softened but not browned, 5 to 8 minutes.\n\nStep 3\nPour in wine and let simmer until pan is almost dry and vegetables are coated. Add jalapeños and cook, stirring, just until softened, 2 minutes. Push the vegetables out to the edges of the pot and dollop 2 teaspoons of chipotle purée in the center. Let fry for a minute and then stir together with the vegetables.\n\nStep 4\nAdd beans, stock, oregano and bay leaves. Stir, bring to a boil, and let boil 10 to 15 minutes. Reduce the heat to a simmer and cook, partly covered, stirring occasionally and adding hot water as needed to keep the soup liquid and runny, not sludgy. Continue cooking until beans are just softened and fragrant, 1 to 2 hours. Add salt and pepper and keep cooking until beans are soft.\n\nStep 5\nMeanwhile, make the pickled onions, if using: In a bowl, combine sliced onions, lime juice and a sprinkling of salt. Let soften at room temperature until crunchy and tart, about 30 minutes. Drain and rinse with cold water. Squeeze dry in paper towels and refrigerate until ready to serve. If desired, chop coarsely before serving.\n\nStep 6\nAdjust the texture of the soup: The goal is to combine whole beans, soft chunks and a velvety broth. Some beans release enough starch while cooking to produce a thick broth without puréeing. If soup seems thin, use an immersion blender or blender to purée a small amount of the beans until smooth, then stir back in. Continue until desired texture is reached, keeping in mind that the soup will continue to thicken as it sits.\n\nStep 7\nHeat the soup through, taste and adjust the seasonings with salt, pepper, drops of red wine vinegar and dabs of chipotle purée.\n\nStep 8\nServe in deep bowls, garnishing each serving with sour cream, pickled onions, cilantro leaves, sliced chiles and avocado as desired.\n\nTip\nIf chipotle chiles are unavailable, use 1 tablespoon each ground cumin and ground coriander. Add to vegetables at the same point in the recipe, in Step 3."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type \"another idea\" if you'd like to see other recipes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1730223677001",
+      "conditions": "$ingredients:soup && $restrictions:none || $ingredients:soup && $restrictions:dairy-free",
+      "dialog_node": "node_8_1730860857299",
+      "previous_sibling": "node_6_1730860509291"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1730223677001",
+      "disabled": true,
+      "dialog_node": "response_1_1730388182928",
+      "previous_sibling": "slot_4_1730389195466"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1730223677001",
+      "variable": "$restrictions",
+      "dialog_node": "slot_4_1730389195466",
+      "previous_sibling": "slot_6_1730389193051"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1730223677001",
+      "variable": "$ingredients",
+      "dialog_node": "slot_6_1730389193051"
+    }
+  ],
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "language": "en",
+  "description": "Conversational bot for getting recipes.",
+  "name": "RecipeBot"
+}

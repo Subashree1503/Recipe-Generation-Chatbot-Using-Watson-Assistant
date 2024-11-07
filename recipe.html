@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking with Love</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #191313;
+            background-color: #fdf7f7;
+        }
+
+        nav {
+            background-color: white;
+            padding: 1.2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #f14242;
+            letter-spacing: 0.5px;
+        }
+
+        .hero {
+            margin-top: 60px;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/api/placeholder/1920/1080');
+            background-size: cover;
+            background-position: center;
+            height: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            padding: 0 20px;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            line-height: 1.8;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+
+        .featured {
+            padding: 4rem 20px;
+        }
+
+        .featured-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .featured h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2.5rem;
+            color: #e64242;
+            position: relative;
+            display: inline-block;
+        }
+
+        .featured h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background-color: #e64242;
+            border-radius: 2px;
+        }
+
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
+            margin-top: 3rem;
+        }
+
+        .category-card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+        }
+
+        .category-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+        }
+
+        .category-icon {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .category-card h3 {
+            color: #e64242;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+            display: inline-block;
+        }
+
+        .category-card h3::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 2px;
+            background-color: #e64242;
+            border-radius: 2px;
+        }
+
+        .category-card p {
+            margin: 0.8rem 0;
+            color: #444;
+            transition: color 0.3s ease;
+        }
+
+        .category-card p:hover {
+            color: #e64242;
+            cursor: pointer;
+        }
+
+        .search-categories {
+            margin-top: -2rem;
+        }
+
+        .search-categories .category-card {
+            background: linear-gradient(145deg, #ffffff, #f8f8f8);
+        }
+
+        .search-categories .category-card p {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            margin: 0.5rem;
+            background-color: #f9e5e5;
+            border-radius: 20px;
+            color: #e64242;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .search-categories .category-card p:hover {
+            background-color: #e64242;
+            color: white;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #2d2d2d;
+            color: white;
+            padding: 2rem 20px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            opacity: 0.9;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+
+            .featured h2 {
+                font-size: 2rem;
+            }
+
+            .categories {
+                grid-template-columns: 1fr;
+                padding: 0 1rem;
+            }
+
+            .category-card {
+                padding: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">CookingWithLove</div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover the Joy of Cooking</h1>
+            <p>Explore our collection of delicious recipes. From quick weekday meals to elaborate weekend feasts, we have something for everyone.</p>
+        </div>
+    </section>
+
+    <section class="featured">
+        <div class="featured-content">
+            <h2>Popular Recipes</h2>
+            <div class="categories">
+                <div class="category-card">
+                    <div class="category-icon">🍝</div>
+                    <h3>Pasta</h3>
+                    <p>Angel Hair Pasta</p>
+                    <p>Lasagna</p>
+                    <p>Angel-hair Pasta</p>
+                    <p>Spaghetti Aglio e Olio</p>
+                    <p>Creamy Pesto Pasta</p>
+                    <p>Garlic Parmesan Pasta</p>
+                    <p>Pesto Pasta with Sun-Dried Tomatoes and Chicken</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🍕</div>
+                    <h3>Pizza</h3>
+                    <p>Pizza Margherita</p>
+                    <p>Pizza With Sweet and Hot Peppers</p>
+                    <p>Veggie Supreme Pizza</p>
+                    <p>White Pizza with Spinach and Ricotta</p>
+                    <p>Pepperoni and Mushroom Pizza</p>
+                    <p>BBQ Chicken Pizza</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🍅</div>
+                    <h3>Tangy</h3>
+                    <p>Onion Tomato masala & Dal Tadka</p>
+                    <p>Tomato Curry</p>
+                    <p>Shakshuka</p>
+                    <p>Tomato and Onion Pasta Sauce</p>
+                    <p>Tomato Onion Bhaji (Indian Stir-Fry)</p>
+                    <p>Tomato and Onion Salad</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured">
+        <div class="featured-content">
+            <h2>Popular Searches</h2>
+            <div class="categories">
+                <div class="category-card">
+                    <h3>Search with Ingredients</h3>
+                    <p>Tomato and onion</p>
+                    <p>Eggs</p>
+                    <p>Chicken</p>
+                    <p>Corn</p>
+                </div>
+                <div class="category-card">
+                    <h3>Search by Type</h3>
+                    <p>Breakfast</p>
+                    <p>Soup</p>
+                    <p>Dessert</p>
+                </div>
+                <div class="category-card">
+                    <h3>Tell us about your restrctions</h3>
+                    <p>Dairy-free</p>
+                    <p>Gluten-free</p>
+                    <p>Vegetarian</p>
+                    <p>Vegan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CookingWithLove. All rights reserved.</p>
+    </footer>
+
+    <script>
+        window.watsonAssistantChatOptions = {
+        integrationID: "b62ef02f-6206-492f-bccd-0044cf173f56", // The ID of this integration.
+        region: "us-south", // The region your integration is hosted in.
+        serviceInstanceID: "b2d7601f-9fb6-43f1-9c33-987797f2ad28", // The ID of your service instance.
+        onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+        });
+    </script>
+</body>
+</html>
